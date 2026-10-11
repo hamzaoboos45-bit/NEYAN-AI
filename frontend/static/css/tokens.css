@@ -1,0 +1,192 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   tokens.css — Neyan AI Design System · Single source of truth
+   ───────────────────────────────────────────────────────────────────────
+   Every color / spacing / radius / shadow value used across the app
+   (sidebar, topbar, cards, tables, forms, modals, chat, voice UI,
+   dashboards, badges) is defined here ONCE. Nothing else in the codebase
+   should hardcode a hex color.
+
+   Brand values (--gold / --bg-0 / --text …) are intentionally shared with
+   frontend/templates/login.html so that the
+   authentication pages and the authenticated app share one visual
+   language, even though login.html keeps its own copy of these variables
+   inline (see AI_AUDIT_REPORT / final report for why that page's markup
+   was left untouched).
+
+   Theme switching: set data-theme="dark" (default) or data-theme="light"
+   on <html>. See frontend/static/js/theme-lang.js.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root,
+[data-theme="dark"] {
+    /* ── NEYAN AI brand: graphite structure + electric-blue signal ── */
+    --gold:        #168CFF;
+    --gold-light:  #55B6FF;
+    --gold-deep:   #0B62B8;
+    --brand-graphite: #252A30;
+    --brand-navy: #071525;
+    --brand-silver: #D8DEE5;
+    --primary:     var(--gold);
+    --accent:      var(--gold);
+
+    /* ── Canvas ───────────────────────────────────────────────── */
+    --bg-0:        #071525;
+    --bg-1:        #161D25;
+    --sidebar-bg:  #111820;
+    --topbar-bg:   rgba(17, 24, 32, .82);
+
+    /* ── Surfaces ─────────────────────────────────────────────── */
+    --surface:        #1A222C;
+    --surface-alt:    #121A23;
+    --card-bg:        rgba(26, 34, 44, .72);
+    --card-border:    rgba(255, 255, 255, .08);
+    --card-shadow:    0 30px 90px rgba(0, 0, 0, .55), inset 0 1px 0 rgba(255, 255, 255, .06);
+
+    /* ── Inputs / pills ───────────────────────────────────────── */
+    --input-bg:        rgba(255, 255, 255, .045);
+    --input-border:    rgba(255, 255, 255, .12);
+    --input-bg-focus:  rgba(255, 255, 255, .07);
+    --select-option-bg: #1A222C;
+    --select-option-text: #FFFFFF;
+    --select-option-muted: #B7BDC8;
+    --pill-bg:         rgba(255, 255, 255, .05);
+    --pill-border:     rgba(255, 255, 255, .10);
+    --pill-active-bg:  rgba(22, 140, 255, .14);
+
+    /* ── Text ─────────────────────────────────────────────────── */
+    --text:        #FFFFFF;
+    --text-soft:   #B7BDC8;
+    --text-faint:  rgba(183, 189, 200, .62);
+
+    /* ── Borders / dividers ───────────────────────────────────── */
+    --border:      rgba(255, 255, 255, .10);
+    --border-soft: rgba(255, 255, 255, .06);
+
+    /* ── Semantic status colors ───────────────────────────────── */
+    --success:        #35C787;
+    --success-bg:     rgba(53, 199, 135, .14);
+    --warning:        #E0A53A;
+    --warning-bg:     rgba(224, 165, 58, .14);
+    --error:           #FF6B6B;
+    --error-bg:        rgba(255, 107, 107, .14);
+    --info:           #5AA9E6;
+    --info-bg:        rgba(90, 169, 230, .14);
+    --purple:         #B18CF0;
+    --purple-bg:      rgba(177, 140, 240, .14);
+
+    /* ── Focus ring ───────────────────────────────────────────── */
+    --focus-ring: 0 0 0 3px rgba(22, 140, 255, .34);
+}
+
+[data-theme="light"] {
+    /* ── Brand (deeper blue for AA contrast on cool light surfaces) ── */
+    --gold:        #0B70D1;
+    --gold-light:  #168CFF;
+    --gold-deep:   #0756A4;
+    --brand-graphite: #252A30;
+    --brand-navy: #071525;
+    --brand-silver: #D8DEE5;
+    --primary:     var(--gold);
+    --accent:      var(--gold);
+
+    /* ── Canvas ───────────────────────────────────────────────── */
+    --bg-0:        #EEF2F6;
+    --bg-1:        #F8FAFC;
+    --sidebar-bg:  #FFFFFF;
+    --topbar-bg:   rgba(255, 255, 255, .82);
+
+    /* ── Surfaces ─────────────────────────────────────────────── */
+    --surface:        #FFFFFF;
+    --surface-alt:    #F2F5F8;
+    --card-bg:        rgba(255, 255, 255, .82);
+    --card-border:    rgba(16, 26, 43, .08);
+    --card-shadow:    0 20px 54px rgba(20, 30, 55, .10), inset 0 1px 0 rgba(255, 255, 255, .6);
+
+    /* ── Inputs / pills ───────────────────────────────────────── */
+    --input-bg:        rgba(16, 26, 43, .03);
+    --input-border:    rgba(16, 26, 43, .14);
+    --input-bg-focus:  rgba(16, 26, 43, .05);
+    --select-option-bg: #FFFFFF;
+    --select-option-text: #10151F;
+    --select-option-muted: #5B6472;
+    --pill-bg:         rgba(16, 26, 43, .04);
+    --pill-border:     rgba(16, 26, 43, .10);
+    --pill-active-bg:  rgba(22, 140, 255, .12);
+
+    /* ── Text ─────────────────────────────────────────────────── */
+    --text:        #10151F;
+    --text-soft:   #5B6472;
+    --text-faint:  rgba(91, 100, 114, .7);
+
+    /* ── Borders / dividers ───────────────────────────────────── */
+    --border:      rgba(16, 26, 43, .12);
+    --border-soft: rgba(16, 26, 43, .06);
+
+    /* ── Semantic status colors (deepened for contrast on cream) ── */
+    --success:        #1E8A5E;
+    --success-bg:     rgba(30, 138, 94, .12);
+    --warning:        #A9700A;
+    --warning-bg:     rgba(169, 112, 10, .12);
+    --error:           #C0392B;
+    --error-bg:        rgba(192, 57, 43, .10);
+    --info:           #1E63B4;
+    --info-bg:        rgba(30, 99, 180, .10);
+    --purple:         #6B4FC9;
+    --purple-bg:      rgba(107, 79, 201, .10);
+
+    --focus-ring: 0 0 0 3px rgba(22, 140, 255, .25);
+}
+
+:root {
+    /* ── Legacy aliases ───────────────────────────────────────────
+       main.css / templates predate this token system and reference
+       --brand, --brand-dark, --bg, --text-muted, --radius, --shadow
+       directly. Re-pointing them here (rather than rewriting every
+       selector) is what lets the whole app re-skin through one file. */
+    --brand:        var(--gold);
+    --brand-dark:   var(--gold-deep);
+    --bg:           var(--bg-0);
+    --text-muted:   var(--text-soft);
+    --sidebar-text: var(--text-soft);
+
+    /* ── Spacing scale ────────────────────────────────────────── */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-7: 32px;
+    --space-8: 48px;
+
+    /* ── Radius scale ─────────────────────────────────────────── */
+    --radius-sm:   8px;
+    --radius:      14px;
+    --radius-lg:   20px;
+    --radius-pill: 999px;
+
+    /* ── Shadow scale ─────────────────────────────────────────── */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, .18);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, .28);
+    --shadow-lg: 0 24px 64px rgba(0, 0, 0, .40);
+    --shadow:    var(--shadow-md);
+
+    /* ── Typography ───────────────────────────────────────────── */
+    --font-sans:    'Inter', 'Manrope', 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+    --font-display: 'Cinzel', 'IBM Plex Sans Arabic', serif;
+
+    /* ── Motion ───────────────────────────────────────────────── */
+    --ease: cubic-bezier(.4, 0, .2, 1);
+    --dur-fast: .15s;
+    --dur: .25s;
+}
+
+/* Respect a user's OS-level reduced-motion preference everywhere. */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+        scroll-behavior: auto !important;
+    }
+}

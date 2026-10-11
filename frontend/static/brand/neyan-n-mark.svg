@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">NEYAN AI N mark</title>
+  <defs>
+    <linearGradient id="neyan-n-blue" x1="20" y1="14" x2="78" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5FD7FF"/>
+      <stop offset=".48" stop-color="#168CFF"/>
+      <stop offset="1" stop-color="#0B62B8"/>
+    </linearGradient>
+    <linearGradient id="neyan-n-graphite" x1="18" y1="18" x2="62" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8DEE5"/>
+      <stop offset="1" stop-color="#4D5968"/>
+    </linearGradient>
+  </defs>
+  <!-- A vector interpretation of the approved N: graphite structure, electric-blue ribbon, no raster artwork. -->
+  <path fill="url(#neyan-n-graphite)" d="M19 76V23c0-5.5 4.5-10 10-10h7.5v41.7L19 76Z"/>
+  <path fill="url(#neyan-n-blue)" d="M36.5 13c10.2 0 17.2 5.5 24.7 15.5l13.3 17.8V21c0-4.4 3.6-8 8-8h1.5v56.8c0 7.8-6.3 13.2-13.2 13.2-9.4 0-16.1-5.1-23.2-14.5L36.5 53.8V13Zm0 20.8v17.5l21.8 19.5c4.1 3.7 7.1 5.4 10.4 5.4 3.5 0 5.8-2.2 5.8-6.4v-4.9L48.6 30.3c-3.8-4.8-7.4-7.7-12.1-8.3v11.8Z"/>
+</svg>

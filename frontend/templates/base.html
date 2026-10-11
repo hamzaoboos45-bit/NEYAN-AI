@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>{% block title %}Neyan AI — Transport Platform{% endblock %}</title>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='brand/neyan-mark.svg') }}">
+
+    <!-- Apply saved theme/lang before first paint (avoids a flash of the
+         wrong theme) — same technique as login.html, same storage keys. -->
+    <script>
+    (function () {
+        try {
+            var t = localStorage.getItem('neyanTheme');
+            if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+            var l = localStorage.getItem('neyanLang');
+            if (l === 'en') { document.documentElement.setAttribute('lang', 'en'); document.documentElement.setAttribute('dir', 'ltr'); }
+        } catch (e) {}
+    })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tokens.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+<!-- Shared shell icons. The compact NEYAN AI mark is the optimized static SVG
+     used in the sidebar, rather than an inline decorative symbol. -->
+<svg style="position:absolute;width:0;height:0" aria-hidden="true">
+    <defs>
+        <!-- Shell icon set — 16x16 stroke icons, same visual language as login.html -->
+        <symbol id="icon-home" viewBox="0 0 16 16" fill="none"><path d="M2 7.5 8 2l6 5.5M3.5 6.5V14h9V6.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.2 14v-4.2h3.6V14" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-chat" viewBox="0 0 16 16" fill="none"><path d="M2 3.5h12v7.5H6.8L3.6 13.6V11H2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M5 6.6h6M5 8.8h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></symbol>
+        <symbol id="icon-map" viewBox="0 0 16 16" fill="none"><path d="M5.5 2.5 2 3.8v9.7l3.5-1.3 5 1.3 3.5-1.3V2.5L10.5 3.8z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M5.5 2.5v9.7M10.5 3.8v9.7" stroke="currentColor" stroke-width="1.2"/></symbol>
+        <symbol id="icon-bookings" viewBox="0 0 16 16" fill="none"><path d="M4 1.8h8v12.4l-4-2-4 2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M6 5h4M6 7.3h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></symbol>
+        <symbol id="icon-wrench" viewBox="0 0 16 16" fill="none"><path d="M10.4 2.3a3.2 3.2 0 0 0-4.2 3.9L2 10.4l1.6 1.6 4.2-4.2a3.2 3.2 0 0 0 3.9-4.2l-1.9 1.9-1.5-.4-.4-1.5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+        <symbol id="icon-grid" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="9" y="2" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="9" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="9" y="9" width="5" height="5" rx="1" stroke="currentColor" stroke-width="1.3"/></symbol>
+        <symbol id="icon-building" viewBox="0 0 16 16" fill="none"><path d="M3 14V3.2L9 2v12M9 6h4v8H3" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M5 5.5h1.6M5 8h1.6M5 10.5h1.6M11 8.5h.01M11 11h.01" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></symbol>
+        <symbol id="icon-user" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="5" r="3" stroke="currentColor" stroke-width="1.4"/><path d="M2 14c0-3.314 2.686-5 6-5s6 1.686 6 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+        <symbol id="icon-logout" viewBox="0 0 16 16" fill="none"><path d="M6.5 14H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.5 11 14 8l-3.5-3M14 8H6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-bell" viewBox="0 0 16 16" fill="none"><path d="M3.3 11.4h9.4l-1.1-1.5V6.8A3.6 3.6 0 0 0 8 3.2a3.6 3.6 0 0 0-3.6 3.6v3.1zM6.4 13.2a1.7 1.7 0 0 0 3.2 0" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-menu" viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+        <symbol id="icon-close" viewBox="0 0 16 16" fill="none"><path d="M3 3l10 10M13 3 3 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+        <symbol id="icon-sun" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="3.4" stroke="currentColor" stroke-width="1.4"/><path d="M8 1.5v1.6M8 12.9v1.6M14.5 8h-1.6M3.1 8H1.5M12.36 3.64l-1.13 1.13M4.77 11.23l-1.13 1.13M12.36 12.36l-1.13-1.13M4.77 4.77 3.64 3.64" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+        <symbol id="icon-moon" viewBox="0 0 16 16" fill="none"><path d="M13.5 9.6A6 6 0 016.4 2.5a6 6 0 106.5 6.5 6.1 6.1 0 00.6.6z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    </defs>
+</svg>
+
+<div class="app-shell">
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <nav class="sidebar" id="appSidebar" aria-label="Primary">
+        <div class="sidebar-head">
+            <a class="sidebar-brand" href="{{ url_for('auth.root') }}">
+                <img class="brand-mark" src="{{ url_for('static', filename='brand/neyan-mark.svg') }}" alt="">
+                <span class="brand-word">
+                    <span class="brand-name">NEYAN <em>AI</em></span>
+                    <span class="brand-sub" data-i18n="brandSub">منصة النقل</span>
+                </span>
+            </a>
+            <button type="button" class="sidebar-close" id="sidebarCloseBtn" aria-label="Close menu" data-i18n-label="menuClose">
+                <svg viewBox="0 0 16 16"><use href="#icon-close"/></svg>
+            </button>
+        </div>
+
+        <ul class="sidebar-nav">
+            {% if session.get("role") == "super_admin" %}
+            <li><a href="{{ url_for('admin.admin_dashboard') }}" class="nav-link {% if active == 'admin' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-grid"/></svg>
+                <span data-i18n="navAdminPlatform">لوحة الإدارة العامة</span>
+            </a></li>
+            <li><a href="{{ url_for('pricing.pricing_page') }}" class="nav-link {% if active == 'pricing' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-grid"/></svg>
+                <span data-i18n="navPricing">التسعير</span>
+            </a></li>
+            {% elif session.get("role") == "company_admin" %}
+            <li><a href="{{ url_for('admin.admin_dashboard') }}" class="nav-link {% if active == 'admin' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-building"/></svg>
+                <span data-i18n="navAdminCompany">لوحة الشركة</span>
+            </a></li>
+            {% else %}
+            <li><a href="{{ url_for('auth.home') }}" class="nav-link {% if active == 'home' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-home"/></svg>
+                <span data-i18n="navHome">الرئيسية</span>
+            </a></li>
+            <li><a href="{{ url_for('chat.chat_page') }}" class="nav-link {% if active == 'chat' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-chat"/></svg>
+                <span data-i18n="navChat">المحادثة الذكية</span>
+            </a></li>
+            <li><a href="{{ url_for('booking.trips_page') }}" class="nav-link {% if active == 'trips' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-map"/></svg>
+                <span data-i18n="navTrips">التنقل</span>
+            </a></li>
+            <li><a href="{{ url_for('booking.trips_page') }}#my-transportation" class="nav-link {% if active == 'trips' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-bookings"/></svg>
+                <span data-i18n="navBookings">تنقلاتي</span>
+            </a></li>
+            <li><a href="{{ url_for('maintenance.maintenance_page') }}" class="nav-link {% if active == 'maintenance' %}active{% endif %}">
+                <svg class="nav-icon" viewBox="0 0 16 16"><use href="#icon-wrench"/></svg>
+                <span data-i18n="navMaintenance">الصيانة</span>
+            </a></li>
+            {% endif %}
+        </ul>
+
+        {% if session.get("user_id") %}
+        <div class="sidebar-profile">
+            <button type="button" class="profile-trigger" id="profileTrigger" aria-haspopup="true" aria-expanded="false">
+                <span class="profile-avatar">{{ session.get("user_name", "?")[0]|upper }}</span>
+                <span class="profile-meta">
+                    <span class="profile-name">{{ session.get("user_name") }}</span>
+                    <span class="role-badge role-{{ session.get('role') }}">
+                        {% if session.get("role") == "super_admin" %}<span data-i18n="roleSuperAdmin">مدير عام</span>
+                        {% elif session.get("role") == "company_admin" %}<span data-i18n="roleCompanyAdmin">مدير شركة</span>
+                        {% else %}<span data-i18n="roleCustomer">عميل</span>{% endif %}
+                    </span>
+                </span>
+                <span class="session-indicator" title="الجلسة نشطة" aria-hidden="true"></span>
+            </button>
+            <div class="profile-menu" id="profileMenu" role="menu">
+                <a href="{{ url_for('auth.profile') }}" class="profile-menu-item" role="menuitem">
+                    <svg viewBox="0 0 16 16"><use href="#icon-user"/></svg>
+                    <span data-i18n="profileMenuProfile">الملف الشخصي</span>
+                </a>
+                <a href="{{ url_for('auth.logout') }}" class="profile-menu-item logout" role="menuitem">
+                    <svg viewBox="0 0 16 16"><use href="#icon-logout"/></svg>
+                    <span data-i18n="profileMenuLogout">تسجيل الخروج</span>
+                </a>
+            </div>
+        </div>
+        {% endif %}
+    </nav>
+
+    <div class="app-body">
+        <header class="topbar">
+            <button type="button" class="topbar-menu-btn" id="sidebarOpenBtn" aria-label="Open menu" aria-controls="appSidebar" aria-expanded="false" data-i18n-label="menuOpen">
+                <svg viewBox="0 0 16 16"><use href="#icon-menu"/></svg>
+            </button>
+
+            <div class="topbar-spacer"></div>
+
+            <div class="topbar-controls">
+                {% if session.get("user_id") %}
+                <div class="notification-shell" id="notificationShell">
+                    <button type="button" class="notification-bell" id="notificationBell" aria-label="Notifications" aria-expanded="false" aria-controls="notificationPanel" data-i18n-label="notificationBell">
+                        <svg viewBox="0 0 16 16" aria-hidden="true"><use href="#icon-bell"/></svg>
+                        <span class="notification-badge" id="notificationBadge" hidden aria-live="polite"></span>
+                    </button>
+                    <section class="notification-panel" id="notificationPanel" hidden aria-label="Notifications" data-i18n-label="notificationPanel">
+                        <div class="notification-panel-head"><strong data-i18n="notificationTitle">الإشعارات</strong><button type="button" id="notificationMarkAll" class="notification-mark-all" data-i18n="notificationMarkAll">تحديد الكل كمقروء</button></div>
+                        <div id="notificationList" class="notification-list" role="list" aria-live="polite"></div>
+                        <a href="{{ url_for('notification.notification_page') }}" class="notification-view-all" data-i18n="notificationViewAll">عرض كل الإشعارات</a>
+                    </section>
+                </div>
+                {% endif %}
+                <div class="tp-pill topbar-lang-pill" role="group" aria-label="Language" data-i18n-label="languageControl">
+                    <button type="button" data-lang-btn="en">EN</button>
+                    <span class="tp-pill-sep">|</span>
+                    <button type="button" data-lang-btn="ar">AR</button>
+                </div>
+                <div class="tp-pill topbar-theme-pill" role="group" aria-label="Theme" data-i18n-label="themeControl">
+                    <button type="button" data-theme-btn="light" title="Light" aria-label="Light theme">
+                        <svg viewBox="0 0 16 16"><use href="#icon-sun"/></svg>
+                        <span class="pill-btn-label" data-i18n="topbarThemeLight">Light</span>
+                    </button>
+                    <button type="button" data-theme-btn="dark" title="Dark" aria-label="Dark theme">
+                        <svg viewBox="0 0 16 16"><use href="#icon-moon"/></svg>
+                        <span class="pill-btn-label" data-i18n="topbarThemeDark">Dark</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content" id="mainContent">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flash-stack">
+                        {% for category, message in messages %}
+                            <div class="flash flash-{{ category }}">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/csrf.js') }}"></script>
+<script src="{{ url_for('static', filename='js/security-utils.js') }}"></script>
+<script src="{{ url_for('static', filename='js/theme-lang.js') }}"></script>
+{% if session.get("user_id") %}<script src="{{ url_for('static', filename='js/notifications.js') }}"></script>{% endif %}
+<script>
+    (function () {
+        // Profile dropdown (unchanged behavior from the original shell).
+        var trigger = document.getElementById("profileTrigger");
+        var menu = document.getElementById("profileMenu");
+        if (trigger && menu) {
+            trigger.addEventListener("click", function (e) {
+                e.stopPropagation();
+                var open = menu.classList.toggle("open");
+                trigger.setAttribute("aria-expanded", open ? "true" : "false");
+            });
+            document.addEventListener("click", function () {
+                menu.classList.remove("open");
+                trigger.setAttribute("aria-expanded", "false");
+            });
+        }
+
+        // Mobile drawer: open/close button, overlay click, and Escape key.
+        var sidebar = document.getElementById("appSidebar");
+        var overlay = document.getElementById("sidebarOverlay");
+        var openBtn = document.getElementById("sidebarOpenBtn");
+        var closeBtn = document.getElementById("sidebarCloseBtn");
+
+        var previousFocus = null;
+        function openDrawer() {
+            previousFocus = document.activeElement;
+            sidebar.classList.add("open");
+            overlay.classList.add("visible");
+            openBtn.setAttribute("aria-expanded", "true");
+            document.body.classList.add("no-scroll");
+            if (closeBtn) closeBtn.focus();
+        }
+        function closeDrawer() {
+            sidebar.classList.remove("open");
+            overlay.classList.remove("visible");
+            openBtn.setAttribute("aria-expanded", "false");
+            document.body.classList.remove("no-scroll");
+            if (previousFocus && typeof previousFocus.focus === "function") previousFocus.focus();
+            previousFocus = null;
+        }
+        if (openBtn) openBtn.addEventListener("click", openDrawer);
+        if (closeBtn) closeBtn.addEventListener("click", closeDrawer);
+        if (overlay) overlay.addEventListener("click", closeDrawer);
+        document.addEventListener("keydown", function (e) {
+            if (e.key !== "Escape") return;
+            if (menu && menu.classList.contains("open")) {
+                menu.classList.remove("open");
+                trigger.focus();
+                trigger.setAttribute("aria-expanded", "false");
+                return;
+            }
+            closeDrawer();
+        });
+        // Close the drawer automatically after choosing a destination on mobile.
+        sidebar.querySelectorAll(".nav-link, .profile-menu-item").forEach(function (link) {
+            link.addEventListener("click", closeDrawer);
+        });
+    })();
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

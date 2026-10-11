@@ -1,0 +1,150 @@
+{"family": "challenge-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عمان لإربد: في سعة فاضية؟ شو بتنصح؟"}
+{"family": "challenge-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "Irbid to Amman: الرحلة مليانة ولا؟ بدي أعرف قبل القرار."}
+{"family": "challenge-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من معان للطفيلة: باقي أماكن؟ هل بتقدر توضح؟"}
+{"family": "challenge-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الزرقاء للعقبة: can two people fit؟ هذا استفساري الوحيد."}
+{"family": "challenge-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من البلقاء للعاصمة: كم متاح؟ يعني كيف؟"}
+{"family": "challenge-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عجلون للمفرق: في سعة فاضية؟ بكلمات بسيطة."}
+{"family": "challenge-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من جرش للسلط: الرحلة مليانة ولا؟ بدون ما أعمل طلب الآن."}
+{"family": "challenge-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الرمثا للبحر الميت: باقي أماكن؟ وأنا بانتظار الرد."}
+{"family": "challenge-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "Amman to Aqaba: can two people fit؟ إذا كانت الخدمة متاحة."}
+{"family": "challenge-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من مادبا للكرك: كم متاح؟ للتخطيط للمشوار."}
+{"family": "challenge-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عمان لإربد: حابّة أثبت مقعد؟ شو بتنصح؟"}
+{"family": "challenge-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "Irbid to Amman: بدي أوفر إلي كرسي؟ بدي أعرف قبل القرار."}
+{"family": "challenge-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من معان للطفيلة: رتبلي سفرة؟ هل بتقدر توضح؟"}
+{"family": "challenge-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الزرقاء للعقبة: can you book me؟ هذا استفساري الوحيد."}
+{"family": "challenge-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من البلقاء للعاصمة: أريد إصدار تذكرة؟ يعني كيف؟"}
+{"family": "challenge-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عجلون للمفرق: حابّة أثبت مقعد؟ بكلمات بسيطة."}
+{"family": "challenge-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من جرش للسلط: بدي أوفر إلي كرسي؟ بدون ما أعمل طلب الآن."}
+{"family": "challenge-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الرمثا للبحر الميت: رتبلي سفرة؟ وأنا بانتظار الرد."}
+{"family": "challenge-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "Amman to Aqaba: can you book me؟ إذا كانت الخدمة متاحة."}
+{"family": "challenge-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v2", "split": "challenge", "text": "من مادبا للكرك: أريد إصدار تذكرة؟ للتخطيط للمشوار."}
+{"family": "challenge-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو بتنصح؟ شيل الحجز باسمي، بكرا."}
+{"family": "challenge-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدي أعرف قبل القرار. ما بدي تذكرتي، المساء."}
+{"family": "challenge-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "هل بتقدر توضح؟ أرجع الحجز، بكرا."}
+{"family": "challenge-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "هذا استفساري الوحيد. withdraw my booked seat، المساء."}
+{"family": "challenge-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "يعني كيف؟ إلغاء سفرتي، بكرا."}
+{"family": "challenge-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "بكلمات بسيطة. شيل الحجز باسمي، المساء."}
+{"family": "challenge-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدون ما أعمل طلب الآن. ما بدي تذكرتي، بكرا."}
+{"family": "challenge-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "وأنا بانتظار الرد. أرجع الحجز، المساء."}
+{"family": "challenge-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "إذا كانت الخدمة متاحة. withdraw my booked seat، بكرا."}
+{"family": "challenge-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v2", "split": "challenge", "text": "للتخطيط للمشوار. إلغاء سفرتي، المساء."}
+{"family": "challenge-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "مش مناسب إلي — شو بتنصح؟"}
+{"family": "challenge-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "خليها لوقت ثاني — بدي أعرف قبل القرار."}
+{"family": "challenge-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "لا تثبت شيء — هل بتقدر توضح؟"}
+{"family": "challenge-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "abort this — هذا استفساري الوحيد."}
+{"family": "challenge-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "تراجع — يعني كيف؟"}
+{"family": "challenge-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "مش مناسب إلي — بكلمات بسيطة."}
+{"family": "challenge-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "خليها لوقت ثاني — بدون ما أعمل طلب الآن."}
+{"family": "challenge-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "لا تثبت شيء — وأنا بانتظار الرد."}
+{"family": "challenge-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "abort this — إذا كانت الخدمة متاحة."}
+{"family": "challenge-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v2", "split": "challenge", "text": "تراجع — للتخطيط للمشوار."}
+{"family": "challenge-company_information-0", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو بتنصح؟ من المشغّل لهذه الوجهة، بكرا."}
+{"family": "challenge-company_information-0", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدي أعرف قبل القرار. أي ناقل متوفر، المساء."}
+{"family": "challenge-company_information-0", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "هل بتقدر توضح؟ وين ألاقي جهات النقل، بكرا."}
+{"family": "challenge-company_information-0", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "هذا استفساري الوحيد. company list please، المساء."}
+{"family": "challenge-company_information-0", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "يعني كيف؟ شركات الباصات، بكرا."}
+{"family": "challenge-company_information-1", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "بكلمات بسيطة. من المشغّل لهذه الوجهة، المساء."}
+{"family": "challenge-company_information-1", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدون ما أعمل طلب الآن. أي ناقل متوفر، بكرا."}
+{"family": "challenge-company_information-1", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "وأنا بانتظار الرد. وين ألاقي جهات النقل، المساء."}
+{"family": "challenge-company_information-1", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "إذا كانت الخدمة متاحة. company list please، بكرا."}
+{"family": "challenge-company_information-1", "intent": "company_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "للتخطيط للمشوار. شركات الباصات، المساء."}
+{"family": "challenge-complaint-0", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو بتنصح؟ التجربة ما كانت عادلة، بكرا."}
+{"family": "challenge-complaint-0", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدي أعرف قبل القرار. في اعتراض على الرحلة، المساء."}
+{"family": "challenge-complaint-0", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "هل بتقدر توضح؟ الالتزام بالمواعيد سيء، بكرا."}
+{"family": "challenge-complaint-0", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "هذا استفساري الوحيد. service quality disappointed me، المساء."}
+{"family": "challenge-complaint-0", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "يعني كيف؟ السائق ما احترمنا، بكرا."}
+{"family": "challenge-complaint-1", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "بكلمات بسيطة. التجربة ما كانت عادلة، المساء."}
+{"family": "challenge-complaint-1", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدون ما أعمل طلب الآن. في اعتراض على الرحلة، بكرا."}
+{"family": "challenge-complaint-1", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "وأنا بانتظار الرد. الالتزام بالمواعيد سيء، المساء."}
+{"family": "challenge-complaint-1", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "إذا كانت الخدمة متاحة. service quality disappointed me، بكرا."}
+{"family": "challenge-complaint-1", "intent": "complaint", "source": "synthetic_curated_v2", "split": "challenge", "text": "للتخطيط للمشوار. السائق ما احترمنا، المساء."}
+{"family": "challenge-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "ثبّت الطلب — شو بتنصح؟"}
+{"family": "challenge-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "توكلنا — بدي أعرف قبل القرار."}
+{"family": "challenge-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "تابع — هل بتقدر توضح؟"}
+{"family": "challenge-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "confirmed — هذا استفساري الوحيد."}
+{"family": "challenge-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "اختياري نعم — يعني كيف؟"}
+{"family": "challenge-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "ثبّت الطلب — بكلمات بسيطة."}
+{"family": "challenge-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "توكلنا — بدون ما أعمل طلب الآن."}
+{"family": "challenge-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "تابع — وأنا بانتظار الرد."}
+{"family": "challenge-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "confirmed — إذا كانت الخدمة متاحة."}
+{"family": "challenge-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v2", "split": "challenge", "text": "اختياري نعم — للتخطيط للمشوار."}
+{"family": "challenge-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو جديدك — شو بتنصح؟"}
+{"family": "challenge-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "كيف الجو عندك — بدي أعرف قبل القرار."}
+{"family": "challenge-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "خلينا نحكي — هل بتقدر توضح؟"}
+{"family": "challenge-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "are you well — هذا استفساري الوحيد."}
+{"family": "challenge-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "قلي معلومة — يعني كيف؟"}
+{"family": "challenge-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو جديدك — بكلمات بسيطة."}
+{"family": "challenge-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "كيف الجو عندك — بدون ما أعمل طلب الآن."}
+{"family": "challenge-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "خلينا نحكي — وأنا بانتظار الرد."}
+{"family": "challenge-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "are you well — إذا كانت الخدمة متاحة."}
+{"family": "challenge-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v2", "split": "challenge", "text": "قلي معلومة — للتخطيط للمشوار."}
+{"family": "challenge-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "خلص شكراً — شو بتنصح؟"}
+{"family": "challenge-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "نهارك سعيد — بدي أعرف قبل القرار."}
+{"family": "challenge-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "باي باي — هل بتقدر توضح؟"}
+{"family": "challenge-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "talk later — هذا استفساري الوحيد."}
+{"family": "challenge-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "وداعاً — يعني كيف؟"}
+{"family": "challenge-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "خلص شكراً — بكلمات بسيطة."}
+{"family": "challenge-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "نهارك سعيد — بدون ما أعمل طلب الآن."}
+{"family": "challenge-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "باي باي — وأنا بانتظار الرد."}
+{"family": "challenge-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "talk later — إذا كانت الخدمة متاحة."}
+{"family": "challenge-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v2", "split": "challenge", "text": "وداعاً — للتخطيط للمشوار."}
+{"family": "challenge-greeting-0", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "يا هلا — شو بتنصح؟"}
+{"family": "challenge-greeting-0", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "يسعد صباحك — بدي أعرف قبل القرار."}
+{"family": "challenge-greeting-0", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "أهلين — هل بتقدر توضح؟"}
+{"family": "challenge-greeting-0", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "hey there — هذا استفساري الوحيد."}
+{"family": "challenge-greeting-0", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "السلام عليكم — يعني كيف؟"}
+{"family": "challenge-greeting-1", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "يا هلا — بكلمات بسيطة."}
+{"family": "challenge-greeting-1", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "يسعد صباحك — بدون ما أعمل طلب الآن."}
+{"family": "challenge-greeting-1", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "أهلين — وأنا بانتظار الرد."}
+{"family": "challenge-greeting-1", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "hey there — إذا كانت الخدمة متاحة."}
+{"family": "challenge-greeting-1", "intent": "greeting", "source": "synthetic_curated_v2", "split": "challenge", "text": "السلام عليكم — للتخطيط للمشوار."}
+{"family": "challenge-help-0", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو بتنصح؟ وضحلي شو أعمل، بكرا."}
+{"family": "challenge-help-0", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدي أعرف قبل القرار. بدّي مساعدة عامة، المساء."}
+{"family": "challenge-help-0", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "هل بتقدر توضح؟ دليل الحجز وين، بكرا."}
+{"family": "challenge-help-0", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "هذا استفساري الوحيد. what can NEYAN do، المساء."}
+{"family": "challenge-help-0", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "يعني كيف؟ مش عارف أبدأ، بكرا."}
+{"family": "challenge-help-1", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "بكلمات بسيطة. وضحلي شو أعمل، المساء."}
+{"family": "challenge-help-1", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدون ما أعمل طلب الآن. بدّي مساعدة عامة، بكرا."}
+{"family": "challenge-help-1", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "وأنا بانتظار الرد. دليل الحجز وين، المساء."}
+{"family": "challenge-help-1", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "إذا كانت الخدمة متاحة. what can NEYAN do، بكرا."}
+{"family": "challenge-help-1", "intent": "help", "source": "synthetic_curated_v2", "split": "challenge", "text": "للتخطيط للمشوار. مش عارف أبدأ، المساء."}
+{"family": "challenge-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "شو بتنصح؟ فرامل السيارة مش طبيعية، بكرا."}
+{"family": "challenge-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدي أعرف قبل القرار. المكيف خربان بالباص، المساء."}
+{"family": "challenge-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "هل بتقدر توضح؟ بدّي فحص للإطارات، بكرا."}
+{"family": "challenge-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "هذا استفساري الوحيد. engine warning appeared، المساء."}
+{"family": "challenge-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "يعني كيف؟ المركبة ما بتدور، بكرا."}
+{"family": "challenge-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "بكلمات بسيطة. فرامل السيارة مش طبيعية، المساء."}
+{"family": "challenge-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "بدون ما أعمل طلب الآن. المكيف خربان بالباص، بكرا."}
+{"family": "challenge-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "وأنا بانتظار الرد. بدّي فحص للإطارات، المساء."}
+{"family": "challenge-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "إذا كانت الخدمة متاحة. engine warning appeared، بكرا."}
+{"family": "challenge-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v2", "split": "challenge", "text": "للتخطيط للمشوار. المركبة ما بتدور، المساء."}
+{"family": "challenge-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عمان لإربد: قديش بدفع؟ شو بتنصح؟"}
+{"family": "challenge-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "Irbid to Amman: شو الكلفة النهائية؟ بدي أعرف قبل القرار."}
+{"family": "challenge-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من معان للطفيلة: السعر شامل شو؟ هل بتقدر توضح؟"}
+{"family": "challenge-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الزرقاء للعقبة: ticket cost please؟ هذا استفساري الوحيد."}
+{"family": "challenge-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من البلقاء للعاصمة: بكم المشوار؟ يعني كيف؟"}
+{"family": "challenge-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عجلون للمفرق: قديش بدفع؟ بكلمات بسيطة."}
+{"family": "challenge-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من جرش للسلط: شو الكلفة النهائية؟ بدون ما أعمل طلب الآن."}
+{"family": "challenge-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الرمثا للبحر الميت: السعر شامل شو؟ وأنا بانتظار الرد."}
+{"family": "challenge-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "Amman to Aqaba: ticket cost please؟ إذا كانت الخدمة متاحة."}
+{"family": "challenge-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v2", "split": "challenge", "text": "من مادبا للكرك: بكم المشوار؟ للتخطيط للمشوار."}
+{"family": "challenge-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عمان لإربد: وين نقطة التجمع؟ شو بتنصح؟"}
+{"family": "challenge-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "Irbid to Amman: على أي ساعة الوصول؟ بدي أعرف قبل القرار."}
+{"family": "challenge-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من معان للطفيلة: ما خط السير؟ هل بتقدر توضح؟"}
+{"family": "challenge-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الزرقاء للعقبة: is it direct؟ هذا استفساري الوحيد."}
+{"family": "challenge-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من البلقاء للعاصمة: تفاصيل المغادرة؟ يعني كيف؟"}
+{"family": "challenge-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عجلون للمفرق: وين نقطة التجمع؟ بكلمات بسيطة."}
+{"family": "challenge-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من جرش للسلط: على أي ساعة الوصول؟ بدون ما أعمل طلب الآن."}
+{"family": "challenge-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الرمثا للبحر الميت: ما خط السير؟ وأنا بانتظار الرد."}
+{"family": "challenge-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "Amman to Aqaba: is it direct؟ إذا كانت الخدمة متاحة."}
+{"family": "challenge-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v2", "split": "challenge", "text": "من مادبا للكرك: تفاصيل المغادرة؟ للتخطيط للمشوار."}
+{"family": "challenge-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عمان لإربد: في شي طالع؟ شو بتنصح؟"}
+{"family": "challenge-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "Irbid to Amman: بدي أتصفح رحلات؟ بدي أعرف قبل القرار."}
+{"family": "challenge-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من معان للطفيلة: ما الخيارات المتجهة؟ هل بتقدر توضح؟"}
+{"family": "challenge-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الزرقاء للعقبة: browse departures؟ هذا استفساري الوحيد."}
+{"family": "challenge-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من البلقاء للعاصمة: هل في مواصلات؟ يعني كيف؟"}
+{"family": "challenge-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من عجلون للمفرق: في شي طالع؟ بكلمات بسيطة."}
+{"family": "challenge-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من جرش للسلط: بدي أتصفح رحلات؟ بدون ما أعمل طلب الآن."}
+{"family": "challenge-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من الرمثا للبحر الميت: ما الخيارات المتجهة؟ وأنا بانتظار الرد."}
+{"family": "challenge-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "Amman to Aqaba: browse departures؟ إذا كانت الخدمة متاحة."}
+{"family": "challenge-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v2", "split": "challenge", "text": "من مادبا للكرك: هل في مواصلات؟ للتخطيط للمشوار."}

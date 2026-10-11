@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% set active = "chat" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/voice.css') }}">
+<script>window.NEYAN_PAGE_I18N={en:{pageTitleChat:"Smart Assistant",chatStarter:"Hello! I’m your smart transport assistant. I can help you book trips or request maintenance. How can I help today?",chatInputLabel:"Chat message",chatPlaceholder:"Write your message...",chatSend:"Send",chatReset:"Start a new chat",voiceStart:"Start voice input"},ar:{pageTitleChat:"المحادثة الذكية",chatStarter:"أهلاً! أنا مساعدك للنقل الذكي. يمكنني مساعدتك في حجز رحلات أو طلب خدمات صيانة. كيف يمكنني مساعدتك اليوم؟",chatInputLabel:"رسالة المحادثة",chatPlaceholder:"اكتب رسالتك هنا...",chatSend:"إرسال",chatReset:"بدء محادثة جديدة",voiceStart:"بدء الإدخال الصوتي"}};</script>
+<div class="page-title-row"><h1 class="page-title" data-i18n="pageTitleChat">المحادثة الذكية</h1></div>
+<div class="chat-container">
+ <div class="chat-messages" id="chatMessages" role="log" aria-live="polite" aria-relevant="additions text" aria-label="Chat messages"><div class="message bot" id="chatStarter" data-chat-default="true" data-i18n="chatStarter">أهلاً! أنا مساعدك للنقل الذكي. يمكنني مساعدتك في حجز رحلات أو طلب خدمات صيانة. كيف يمكنني مساعدتك اليوم؟</div></div>
+ <div class="chat-input-bar">
+  <label class="sr-only" for="chatInput" data-i18n="chatInputLabel">رسالة المحادثة</label><input type="text" id="chatInput" placeholder="اكتب رسالتك هنا..." data-i18n-placeholder="chatPlaceholder" autocomplete="off" maxlength="2000" aria-describedby="chatStatus voiceStatusLine">
+  <button class="btn" id="chatSendBtn" type="button"><span data-i18n="chatSend">إرسال</span></button>
+  <button class="btn btn-secondary" id="chatResetBtn" type="button" title="بدء محادثة جديدة" aria-label="بدء محادثة جديدة" data-i18n-label="chatReset"><svg viewBox="0 0 16 16" fill="none" style="width:15px;height:15px;vertical-align:-2px"><path d="M13 8A5 5 0 1 1 8 3c1.6 0 3 .7 4 1.8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M12.2 2.6v3h-3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="voice-mic-btn" id="voiceMicBtn" type="button" title="بدء الإدخال الصوتي" aria-label="بدء الإدخال الصوتي" data-i18n-label="voiceStart" aria-pressed="false"><span class="voice-mic-icon"><svg viewBox="0 0 16 16" fill="none" width="18" height="18"><rect x="6" y="2" width="4" height="7.5" rx="2" fill="currentColor"/><path d="M4 7.5a4 4 0 0 0 8 0" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M8 11.5V14M6 14h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></span></button>
+ </div>
+ <div class="voice-status-line" id="voiceStatusLine" role="status" aria-live="polite" aria-atomic="true" hidden></div><div class="chat-status" id="chatStatus" role="status" aria-live="polite" aria-atomic="true"></div>
+</div>
+<script>window.NLP_DEBUG_ENABLED={{ 'true' if nlp_debug_enabled else 'false' }};window.NEYAN_VOICE_CONFIG={partialIntervalMs:{{ voice_partial_interval_ms|int }},maxRecordingMs:{{ voice_client_max_recording_seconds|int * 1000 }}};</script><script src="{{ url_for('static', filename='js/chat.js') }}"></script><script src="{{ url_for('static', filename='js/voice.js') }}"></script>
+{% endblock %}

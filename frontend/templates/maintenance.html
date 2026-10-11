@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% set active = "maintenance" %}
+{% block content %}
+<script>
+window.NEYAN_PAGE_I18N = {
+  en: {pageTitleMaint:"Request Maintenance Service",maintenanceSubtitle:"Send a clear request and the service team will follow up with you.",requestDetails:"Request details",serviceType:"Service type",selectService:"Select a service…",other:"Other / inspection required",serviceDetails:"Problem details",serviceDetailsPlaceholder:"Describe the issue…",location:"Location / address",locationPlaceholder:"Example: University Street, Amman",preferredDate:"Preferred date",customerName:"Your name",customerNamePlaceholder:"Full name",customerPhone:"Phone number",customerPhonePlaceholder:"07XXXXXXXX",additionalNotes:"Additional notes",optional:"Optional",notesPlaceholder:"Any additional details…",submitRequest:"Submit request",previousRequests:"My previous requests",refresh:"Refresh",historyLoading:"Loading requests…",requestId:"#",service:"Service",locationColumn:"Location",date:"Date",price:"Request-time price",status:"Status",company:"Company"},
+  ar: {pageTitleMaint:"طلب خدمة صيانة",maintenanceSubtitle:"أرسل طلبك بوضوح وسيتابع فريق الخدمة التفاصيل معك.",requestDetails:"تفاصيل الطلب",serviceType:"نوع الخدمة",selectService:"اختر خدمة…",other:"أخرى / تتطلب فحصاً",serviceDetails:"تفاصيل المشكلة",serviceDetailsPlaceholder:"صِف المشكلة…",location:"الموقع / العنوان",locationPlaceholder:"مثال: شارع الجامعة، عمان",preferredDate:"التاريخ المفضل",customerName:"اسمك",customerNamePlaceholder:"الاسم الكامل",customerPhone:"رقم الهاتف",customerPhonePlaceholder:"07XXXXXXXX",additionalNotes:"ملاحظات إضافية",optional:"اختياري",notesPlaceholder:"أي تفاصيل إضافية…",submitRequest:"إرسال الطلب",previousRequests:"طلباتي السابقة",refresh:"تحديث",historyLoading:"جارٍ تحميل الطلبات…",requestId:"#",service:"الخدمة",locationColumn:"الموقع",date:"التاريخ",price:"سعر وقت الطلب",status:"الحالة",company:"الشركة"}
+};
+</script>
+<section class="maintenance-page">
+  <header class="maintenance-hero"><p class="dashboard-eyebrow">NEYAN AI</p><h1 class="page-title" data-i18n="pageTitleMaint">Request Maintenance Service</h1><p class="section-subtitle" data-i18n="maintenanceSubtitle">Send a clear request and the service team will follow up with you.</p></header>
+  <form class="card maintenance-form-card" id="maintenanceRequestForm" novalidate>
+    <h2 class="maintenance-section-title" data-i18n="requestDetails">Request details</h2>
+    <div class="form-group"><label for="serviceType" data-i18n="serviceType">Service type</label><select id="serviceType" required><option value="" data-i18n="selectService">Select a service…</option><option value="other" data-i18n="other">Other / inspection required</option></select></div>
+    <div class="form-group"><label for="serviceDetails" data-i18n="serviceDetails">Problem details</label><textarea id="serviceDetails" rows="3" data-i18n-placeholder="serviceDetailsPlaceholder" placeholder="Describe the issue…"></textarea></div>
+    <div class="form-group"><label for="location" data-i18n="location">Location / address</label><input type="text" id="location" data-i18n-placeholder="locationPlaceholder" placeholder="Example: University Street, Amman" required></div>
+    <div class="form-group"><label for="preferredDate" data-i18n="preferredDate">Preferred date</label><input type="date" id="preferredDate" required></div>
+    <div class="form-group"><label for="customerName" data-i18n="customerName">Your name</label><input type="text" id="customerName" data-i18n-placeholder="customerNamePlaceholder" placeholder="Full name"></div>
+    <div class="form-group"><label for="customerPhone" data-i18n="customerPhone">Phone number</label><input type="text" id="customerPhone" data-i18n-placeholder="customerPhonePlaceholder" placeholder="07XXXXXXXX"></div>
+    <div class="form-group"><label for="notes"><span data-i18n="additionalNotes">Additional notes</span> <span class="maintenance-optional" data-i18n="optional">Optional</span></label><textarea id="notes" rows="2" data-i18n-placeholder="notesPlaceholder" placeholder="Any additional details…"></textarea></div>
+    <button class="btn" type="submit" id="submitMaintenance" data-i18n="submitRequest">Submit request</button><div id="requestResult" class="maintenance-result" role="status" aria-live="polite"></div>
+  </form>
+  <section class="card maintenance-history-card" aria-labelledby="maintenanceHistoryTitle"><div class="maintenance-history-heading"><h2 id="maintenanceHistoryTitle" class="maintenance-section-title" data-i18n="previousRequests">My previous requests</h2><button class="btn btn-secondary btn-small" type="button" id="refreshMaintenance" data-i18n="refresh">Refresh</button></div><table><thead><tr><th data-i18n="requestId">#</th><th data-i18n="service">Service</th><th data-i18n="locationColumn">Location</th><th data-i18n="date">Date</th><th data-i18n="price">Request-time price</th><th data-i18n="status">Status</th><th data-i18n="company">Company</th></tr></thead><tbody id="myRequestsTable"><tr><td colspan="7" class="empty-state" data-i18n="historyLoading">Loading requests…</td></tr></tbody></table></section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/maintenance-pricing.js') }}"></script>{% endblock %}

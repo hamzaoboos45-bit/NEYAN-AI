@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% set active = "home" %}
+
+{% block content %}
+<script>
+window.NEYAN_PAGE_I18N = {
+  en: {
+    pageTitleHome: "Home", homeEyebrow: "NEYAN AI", homeWelcomePrefix: "Welcome", homeSubtitle: "Your trips, requests, and transport options in one place.",
+    quickActions: "Quick actions", actionTrips: "Search trips", actionBookings: "My bookings", actionChat: "Ask Neyan AI", actionMaintenance: "Maintenance", actionProfile: "Profile",
+    snapshotTitle: "Your snapshot", totalBookings: "Total bookings", upcomingBookings: "Upcoming trips", pendingBookings: "Pending bookings", maintenanceRequests: "Maintenance requests",
+    nextTripTitle: "Your next trip", nextTripEmpty: "You do not have an upcoming trip yet.", searchTrips: "Search trips", bookingStatus: "Booking status", paymentStatus: "Payment", seats: "Seats", company: "Company", price: "Price",
+    recentBookingsTitle: "Recent bookings", recentBookingsEmpty: "No bookings yet. Start by exploring available trips.", viewAllBookings: "View all bookings", maintenanceTitle: "Maintenance summary", maintenanceEmpty: "No maintenance requests yet.", viewMaintenance: "Open maintenance",
+    discoveryTitle: "Discover transport", discoverySubtitle: "Available upcoming trips from active transport companies.", tripsEmpty: "No upcoming available trips right now.", companiesTitle: "Transport companies", companiesSubtitle: "Active companies and their currently available trip coverage.", companiesEmpty: "No active transport companies are available right now.", availableTrips: "Available upcoming trips", availableRoutes: "Available upcoming routes", city: "City",
+    loading: "Loading your dashboard…", loadError: "We could not load your dashboard.", retry: "Try again", unavailable: "Not available", statusPending: "Pending", statusConfirmed: "Confirmed", statusCancelled: "Cancelled", statusPaid: "Paid", statusUnpaid: "Unpaid", statusRefunded: "Refunded", serviceTireRepair: "Tire repair", serviceTireReplace: "Tire replacement", serviceEngine: "Engine maintenance", serviceOilChange: "Oil change", serviceBattery: "Battery service", serviceOther: "Other", latestRequest: "Latest request", preferredDate: "Preferred date", reviewsTitle: "Rate your experience", reviewsSubtitle: "Share feedback only for trips you completed.", rateExperience: "Rate your experience", yourRating: "Your rating", reviewOptional: "Optional comment", reviewPlaceholder: "Tell us about your experience (optional)", submitReview: "Submit review", submittingReview: "Submitting…", reviewSuccess: "Your review was submitted.", noRatingsYet: "No ratings yet", basedOnReviews: "Based on", reviews: "reviews", ratingLabel: "Rate this trip", selectedRating: "Selected rating", reviewError: "We could not submit your review. Please try again."
+  },
+  ar: {
+    pageTitleHome: "الرئيسية", homeEyebrow: "NEYAN AI", homeWelcomePrefix: "مرحباً", homeSubtitle: "رحلاتك وطلباتك وخيارات النقل في مكان واحد.",
+    quickActions: "إجراءات سريعة", actionTrips: "البحث عن رحلات", actionBookings: "حجوزاتي", actionChat: "اسأل نيان AI", actionMaintenance: "الصيانة", actionProfile: "الملف الشخصي",
+    snapshotTitle: "ملخصك", totalBookings: "إجمالي الحجوزات", upcomingBookings: "الرحلات القادمة", pendingBookings: "الحجوزات المعلّقة", maintenanceRequests: "طلبات الصيانة",
+    nextTripTitle: "رحلتك القادمة", nextTripEmpty: "لا توجد لديك رحلة قادمة حالياً.", searchTrips: "ابحث عن رحلة", bookingStatus: "حالة الحجز", paymentStatus: "الدفع", seats: "المقاعد", company: "الشركة", price: "السعر",
+    recentBookingsTitle: "أحدث الحجوزات", recentBookingsEmpty: "لا توجد حجوزات بعد. ابدأ باستكشاف الرحلات المتاحة.", viewAllBookings: "عرض كل الحجوزات", maintenanceTitle: "ملخص الصيانة", maintenanceEmpty: "لا توجد طلبات صيانة بعد.", viewMaintenance: "فتح الصيانة",
+    discoveryTitle: "اكتشف النقل", discoverySubtitle: "رحلات قادمة متاحة من شركات النقل النشطة.", tripsEmpty: "لا توجد رحلات قادمة متاحة حالياً.", companiesTitle: "شركات النقل", companiesSubtitle: "شركات نشطة وتغطية رحلاتها المتاحة حالياً.", companiesEmpty: "لا توجد شركات نقل نشطة متاحة حالياً.", availableTrips: "رحلات قادمة متاحة", availableRoutes: "مسارات قادمة متاحة", city: "المدينة",
+    loading: "جارٍ تحميل لوحة التحكم…", loadError: "تعذر تحميل لوحة التحكم.", retry: "إعادة المحاولة", unavailable: "غير متاح", statusPending: "معلّق", statusConfirmed: "مؤكد", statusCancelled: "ملغي", statusPaid: "مدفوع", statusUnpaid: "غير مدفوع", statusRefunded: "مسترد", serviceTireRepair: "تصليح إطارات", serviceTireReplace: "تبديل إطارات", serviceEngine: "صيانة محرك", serviceOilChange: "تغيير زيت", serviceBattery: "صيانة بطارية", serviceOther: "أخرى", latestRequest: "أحدث طلب", preferredDate: "التاريخ المفضل", reviewsTitle: "قيّم تجربتك", reviewsSubtitle: "شارك رأيك فقط عن الرحلات التي اكتملت تجربتك معها.", rateExperience: "قيّم تجربتك", yourRating: "تقييمك", reviewOptional: "تعليق اختياري", reviewPlaceholder: "أخبرنا عن تجربتك (اختياري)", submitReview: "إرسال التقييم", submittingReview: "جارٍ الإرسال…", reviewSuccess: "تم إرسال تقييمك.", noRatingsYet: "لا توجد تقييمات بعد", basedOnReviews: "استناداً إلى", reviews: "تقييمات", ratingLabel: "قيّم هذه الرحلة", selectedRating: "التقييم المختار", reviewError: "تعذر إرسال تقييمك. حاول مرة أخرى."
+  }
+};
+</script>
+
+<section class="dashboard-hero" aria-labelledby="homeDashboardTitle">
+  <div>
+    <p class="dashboard-eyebrow" data-i18n="homeEyebrow">NEYAN AI</p>
+    <h1 class="page-title dashboard-title" id="homeDashboardTitle"><span data-i18n="homeWelcomePrefix">مرحباً</span>، {{ session.get("user_name", "") }}</h1>
+    <p class="dashboard-subtitle" data-i18n="homeSubtitle">رحلاتك وطلباتك وخيارات النقل في مكان واحد.</p>
+  </div>
+</section>
+
+<div id="homeDashboardError" class="dashboard-feedback flash flash-error" role="alert" hidden>
+  <span id="homeDashboardErrorText" data-i18n="loadError">تعذر تحميل لوحة التحكم.</span>
+  <button type="button" class="btn btn-secondary btn-small" id="homeDashboardRetry" data-i18n="retry">إعادة المحاولة</button>
+</div>
+<div id="homeDashboardLoading" class="dashboard-loading card" role="status" aria-live="polite"><span class="dashboard-spinner" aria-hidden="true"></span><span data-i18n="loading">جارٍ تحميل لوحة التحكم…</span></div>
+
+<div id="homeDashboardContent" hidden>
+  <section aria-labelledby="snapshotTitle">
+    <div class="section-heading"><h2 id="snapshotTitle" data-i18n="snapshotTitle">ملخصك</h2></div>
+    <div class="stat-grid home-stat-grid">
+      <article class="stat-card"><div class="stat-number" id="homeTotalBookings">—</div><div class="stat-label" data-i18n="totalBookings">إجمالي الحجوزات</div></article>
+      <article class="stat-card"><div class="stat-number" id="homeUpcomingBookings">—</div><div class="stat-label" data-i18n="upcomingBookings">الرحلات القادمة</div></article>
+      <article class="stat-card"><div class="stat-number" id="homePendingBookings">—</div><div class="stat-label" data-i18n="pendingBookings">الحجوزات المعلّقة</div></article>
+      <article class="stat-card"><div class="stat-number" id="homeMaintenanceCount">—</div><div class="stat-label" data-i18n="maintenanceRequests">طلبات الصيانة</div></article>
+    </div>
+  </section>
+
+  <section class="dashboard-two-column" aria-label="Customer activity">
+    <article class="card dashboard-panel"><div class="section-heading"><h2 data-i18n="nextTripTitle">رحلتك القادمة</h2></div><div id="homeNextTrip"></div></article>
+    <article class="card dashboard-panel"><div class="section-heading"><h2 data-i18n="maintenanceTitle">ملخص الصيانة</h2></div><div id="homeMaintenance"></div></article>
+  </section>
+
+  <section class="card dashboard-panel" aria-labelledby="recentBookingsTitle">
+    <div class="section-heading section-heading-action"><h2 id="recentBookingsTitle" data-i18n="recentBookingsTitle">أحدث الحجوزات</h2><a class="text-link" href="{{ url_for('booking.trips_page') }}#my-transportation" data-i18n="viewAllBookings">عرض كل الحجوزات</a></div>
+    <div id="homeRecentBookings" class="dashboard-list"></div>
+  </section>
+
+  <section class="card dashboard-panel" id="homeReviewSection" aria-labelledby="reviewsTitle" hidden>
+    <div class="section-heading"><h2 id="reviewsTitle" data-i18n="reviewsTitle">قيّم تجربتك</h2></div>
+    <p class="section-subtitle" data-i18n="reviewsSubtitle">شارك رأيك فقط عن الرحلات التي اكتملت تجربتك معها.</p>
+    <div id="homeReviewOpportunities" class="review-opportunity-list"></div>
+  </section>
+
+  <section class="dashboard-discovery" aria-labelledby="discoveryTitle">
+    <div class="section-heading"><h2 id="discoveryTitle" data-i18n="discoveryTitle">اكتشف النقل</h2></div><p class="section-subtitle" data-i18n="discoverySubtitle">رحلات قادمة متاحة من شركات النقل النشطة.</p>
+    <div id="homeUpcomingTrips" class="discovery-trip-grid"></div>
+  </section>
+
+  <section class="dashboard-discovery" aria-labelledby="companiesTitle">
+    <div class="section-heading"><h2 id="companiesTitle" data-i18n="companiesTitle">شركات النقل</h2></div><p class="section-subtitle" data-i18n="companiesSubtitle">شركات نشطة وتغطية رحلاتها المتاحة حالياً.</p>
+    <div id="homeCompanies" class="company-card-grid"></div>
+  </section>
+
+  <section class="dashboard-actions" aria-labelledby="quickActionsTitle">
+    <div class="section-heading"><h2 id="quickActionsTitle" data-i18n="quickActions">إجراءات سريعة</h2></div>
+    <div class="home-grid">
+      <a class="home-tile" href="{{ url_for('booking.trips_page') }}"><svg class="home-tile-icon" viewBox="0 0 16 16" fill="none"><use href="#icon-map"/></svg><strong data-i18n="actionTrips">البحث عن رحلات</strong></a>
+      <a class="home-tile" href="{{ url_for('booking.trips_page') }}#my-transportation"><svg class="home-tile-icon" viewBox="0 0 16 16" fill="none"><use href="#icon-bookings"/></svg><strong data-i18n="actionBookings">تنقلاتي</strong></a>
+      <a class="home-tile" href="{{ url_for('chat.chat_page') }}"><svg class="home-tile-icon" viewBox="0 0 16 16" fill="none"><use href="#icon-chat"/></svg><strong data-i18n="actionChat">اسأل نيان AI</strong></a>
+      <a class="home-tile" href="{{ url_for('maintenance.maintenance_page') }}"><svg class="home-tile-icon" viewBox="0 0 16 16" fill="none"><use href="#icon-wrench"/></svg><strong data-i18n="actionMaintenance">الصيانة</strong></a>
+      <a class="home-tile" href="{{ url_for('auth.profile') }}"><svg class="home-tile-icon" viewBox="0 0 16 16" fill="none"><use href="#icon-user"/></svg><strong data-i18n="actionProfile">الملف الشخصي</strong></a>
+    </div>
+  </section>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/home-dashboard.js', v=asset_version) }}"></script>
+{% endblock %}

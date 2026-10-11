@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% set active = "notifications" %}
+{% block title %}Notifications — NEYAN AI{% endblock %}
+{% block content %}
+<script>window.NEYAN_NOTIFICATION_CENTER_I18N={en:{pageTitle:"Notifications",pageDescription:"Important updates for your account.",allNotifications:"All notifications",markAll:"Mark all read",loadMore:"Load more",empty:"You are all caught up — no notifications yet."},ar:{pageTitle:"الإشعارات",pageDescription:"التحديثات المهمة الخاصة بحسابك.",allNotifications:"كل الإشعارات",markAll:"تحديد الكل كمقروء",loadMore:"تحميل المزيد",empty:"لا توجد إشعارات حتى الآن."}};</script>
+<section class="page-header"><p class="eyebrow">NEYAN AI</p><h1 data-notification-i18n="pageTitle">Notifications</h1><p data-notification-i18n="pageDescription">Important updates for your account.</p></section>
+<section class="card notification-center"><div class="notification-panel-head"><strong data-notification-i18n="allNotifications">All notifications</strong><button type="button" id="notificationCenterMarkAll" class="notification-mark-all" data-notification-i18n="markAll">Mark all read</button></div><div id="notificationCenterList" class="notification-list" role="list" aria-live="polite"></div><button type="button" id="notificationLoadMore" class="btn btn-small" data-notification-i18n="loadMore">Load more</button></section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/notification-center.js') }}"></script>{% endblock %}

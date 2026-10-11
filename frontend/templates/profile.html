@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% set active = "profile" %}
+
+{% block content %}
+<script>
+    window.NEYAN_PAGE_I18N = {
+        en: { pageTitleProfile: "Profile", roleLabel: "Role", statusLabel: "Status", createdLabel: "Created", lastLoginLabel: "Last login", superAdmin: "Super Admin", companyAdmin: "Company Admin", customer: "Customer", active: "Active", approved: "Approved", pending: "Pending", disabled: "Disabled", rejected: "Rejected", unavailable: "Not available" },
+        ar: { pageTitleProfile: "الملف الشخصي", roleLabel: "الدور", statusLabel: "الحالة", createdLabel: "تاريخ الإنشاء", lastLoginLabel: "آخر دخول", superAdmin: "مدير عام", companyAdmin: "مدير شركة", customer: "عميل", active: "نشط", approved: "معتمد", pending: "قيد المراجعة", disabled: "معطل", rejected: "مرفوض", unavailable: "غير متوفر" }
+    };
+</script>
+<h1 class="page-title" data-i18n="pageTitleProfile">الملف الشخصي</h1>
+
+<div class="card profile-card">
+    <div class="profile-avatar">{{ (user["name"] or user["full_name"] or "U")[:1] }}</div>
+    <div>
+        <h2>{{ user["name"] or user["full_name"] }}</h2>
+        <p>{{ user["email"] }}</p>
+    </div>
+</div>
+
+<div class="card">
+    <table>
+        <tbody>
+            <tr><th data-i18n="roleLabel">الدور</th><td>
+                {% if role == "super_admin" %}<span data-i18n="superAdmin">مدير عام</span>
+                {% elif role == "company_admin" %}<span data-i18n="companyAdmin">مدير شركة</span> — {{ user["company_name"] or "—" }}
+                {% else %}<span data-i18n="customer">عميل</span>{% endif %}
+            </td></tr>
+            <tr><th data-i18n="statusLabel">الحالة</th><td><span data-i18n="{{ user['status'] if user['status'] in ['active', 'approved', 'pending', 'disabled', 'rejected'] else 'unavailable' }}">{{ user["status"] or "—" }}</span></td></tr>
+            <tr><th data-i18n="createdLabel">تاريخ الإنشاء</th><td dir="ltr">{{ user["created_at"] or "—" }}</td></tr>
+            <tr><th data-i18n="lastLoginLabel">آخر دخول</th><td dir="ltr">{{ user["last_login"] or "—" }}</td></tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

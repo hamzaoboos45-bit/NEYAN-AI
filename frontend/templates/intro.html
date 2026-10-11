@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEYAN AI</title><link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='brand/neyan-n-mark.svg') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/tokens.css') }}"><link rel="stylesheet" href="{{ url_for('static', filename='css/intro.css') }}">
+  <script>(function(){try{var l=localStorage.getItem('neyanLang'),t=localStorage.getItem('neyanTheme');if(l==='ar'){document.documentElement.lang='ar';document.documentElement.dir='rtl'}if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}})();</script>
+</head>
+<body>
+  <main class="intro" aria-labelledby="introName">
+    <section class="intro-content" aria-live="polite">
+      <h1 id="introName" class="intro-wordmark">NEYAN <em>AI</em></h1>
+      <p class="intro-tagline" data-i18n="introTagline">Connected transport. Intelligent support.</p>
+    </section>
+    <button class="intro-skip" id="introSkip" type="button" data-i18n="introSkip">Skip intro</button>
+  </main>
+  <script>window.NEYAN_INTRO_DESTINATION={{ intro_destination|tojson }};</script>
+  <script src="{{ url_for('static', filename='js/intro.js') }}"></script>
+</body>
+</html>

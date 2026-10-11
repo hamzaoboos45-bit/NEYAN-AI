@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% set active = "bookings" %}
+
+{% block content %}
+<script>
+    window.NEYAN_PAGE_I18N = { en: { pageTitleBookings: "Bookings" }, ar: { pageTitleBookings: "الحجوزات" } };
+</script>
+<h1 class="page-title" data-i18n="pageTitleBookings">الحجوزات</h1>
+
+<div class="card" style="padding:14px 20px;">
+    <div class="search-bar">
+        <select id="filterStatus" onchange="loadBookings()">
+            <option value="">كل الحالات</option>
+            <option value="pending">معلق</option>
+            <option value="confirmed">مؤكد</option>
+            <option value="cancelled">ملغي</option>
+        </select>
+        <select id="filterPayment" onchange="loadBookings()">
+            <option value="">كل حالات الدفع</option>
+            <option value="unpaid">غير مدفوع</option>
+            <option value="paid">مدفوع</option>
+            <option value="refunded">مسترد</option>
+        </select>
+    </div>
+</div>
+
+<div class="card">
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>المسافر</th>
+                <th>الرحلة</th>
+                <th>المقاعد</th>
+                <th>السعر</th>
+                <th>الحالة</th>
+                <th>الدفع</th>
+                <th>التاريخ</th>
+            </tr>
+        </thead>
+        <tbody id="bookingsTable">
+            <tr><td colspan="8" class="empty-state">جاري التحميل...</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+const statusLabel = { pending: "معلق", confirmed: "مؤكد", cancelled: "ملغي" };
+const statusClass = { pending: "badge-pending", confirmed: "badge-confirmed", cancelled: "badge-cancelled" };
+
+const payLabel = { unpaid: "غير مدفوع", paid: "مدفوع", refunded: "مسترد" };
+const payClass = { unpaid: "badge-pending", paid: "badge-confirmed", refunded: "badge-info" };
+
+async function loadBookings() {
+    const status  = document.getElementById("filterStatus").value;
+    const payment = document.getElementById("filterPayment").value;
+
+    let url = "/api/bookings";
+    const params = [];
+    if (status)  params.push(`status=${status}`);
+    if (payment) params.push(`payment=${payment}`);
+    if (params.length) url += "?" + params.join("&");
+
+    const data  = await fetch(url).then(r => r.json());
+    const tbody = document.getElementById("bookingsTable");
+
+    if (!data.length) {
+        tbody.innerHTML = '<tr><td colspan="8" class="empty-state">لا توجد حجوزات</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = data.map(b => `
+        <tr>
+            <td>${b.booking_id}</td>
+            <td>${escapeHtml(b.passenger_name) || "—"}</td>
+            <td>${escapeHtml(b.from_city)} ← ${escapeHtml(b.to_city)}</td>
+            <td>${b.seats_booked}</td>
+            <td>${b.total_price} د.أ</td>
+            <td><span class="badge ${statusClass[b.status]}">${statusLabel[b.status]}</span></td>
+            <td><span class="badge ${payClass[b.payment_status] || 'badge-pending'}">${payLabel[b.payment_status] || '—'}</span></td>
+            <td>${(b.booked_at || "").slice(0,10)}</td>
+        </tr>
+    `).join("");
+}
+
+loadBookings();
+</script>
+{% endblock %}

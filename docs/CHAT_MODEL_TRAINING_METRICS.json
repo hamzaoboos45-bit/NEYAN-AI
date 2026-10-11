@@ -1,0 +1,500 @@
+{
+  "artifact": "backend/nlp/models/arabert_intent_delta.pt",
+  "best_epoch": 8,
+  "class_distribution": {
+    "test": {
+      "availability_inquiry": 3,
+      "book_trip": 3,
+      "cancel_booking": 3,
+      "cancellation": 3,
+      "company_information": 3,
+      "complaint": 3,
+      "confirmation": 3,
+      "general_conversation": 3,
+      "goodbye": 3,
+      "greeting": 3,
+      "help": 3,
+      "maintenance_request": 3,
+      "price_inquiry": 3,
+      "trip_information": 3,
+      "trip_search": 3
+    },
+    "train": {
+      "availability_inquiry": 8,
+      "book_trip": 8,
+      "cancel_booking": 8,
+      "cancellation": 8,
+      "company_information": 8,
+      "complaint": 8,
+      "confirmation": 8,
+      "general_conversation": 8,
+      "goodbye": 8,
+      "greeting": 8,
+      "help": 8,
+      "maintenance_request": 8,
+      "price_inquiry": 8,
+      "trip_information": 8,
+      "trip_search": 8
+    },
+    "validation": {
+      "availability_inquiry": 2,
+      "book_trip": 2,
+      "cancel_booking": 2,
+      "cancellation": 2,
+      "company_information": 2,
+      "complaint": 2,
+      "confirmation": 2,
+      "general_conversation": 2,
+      "goodbye": 2,
+      "greeting": 2,
+      "help": 2,
+      "maintenance_request": 2,
+      "price_inquiry": 2,
+      "trip_information": 2,
+      "trip_search": 2
+    }
+  },
+  "dataset_counts": {
+    "test": 45,
+    "train": 120,
+    "validation": 30
+  },
+  "test_inference_ms_per_message": 95.34,
+  "test_metrics": {
+    "accuracy": 0.5111,
+    "confusion_matrix": {
+      "availability_inquiry": {
+        "availability_inquiry": 2,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 1,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "book_trip": {
+        "availability_inquiry": 0,
+        "book_trip": 1,
+        "cancel_booking": 0,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 1,
+        "trip_search": 1
+      },
+      "cancel_booking": {
+        "availability_inquiry": 0,
+        "book_trip": 1,
+        "cancel_booking": 1,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 1,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "cancellation": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 2,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 1,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "company_information": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 0,
+        "company_information": 2,
+        "complaint": 0,
+        "confirmation": 1,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "complaint": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 1,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 2,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "confirmation": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 1,
+        "confirmation": 2,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "general_conversation": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 1,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 2,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "goodbye": {
+        "availability_inquiry": 1,
+        "book_trip": 0,
+        "cancel_booking": 1,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 1,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "greeting": {
+        "availability_inquiry": 0,
+        "book_trip": 1,
+        "cancel_booking": 0,
+        "cancellation": 1,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 1,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "help": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 0,
+        "company_information": 1,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 1,
+        "maintenance_request": 0,
+        "price_inquiry": 1,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "maintenance_request": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 3,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "price_inquiry": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 0,
+        "cancellation": 1,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 2,
+        "trip_information": 0,
+        "trip_search": 0
+      },
+      "trip_information": {
+        "availability_inquiry": 0,
+        "book_trip": 0,
+        "cancel_booking": 1,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 1,
+        "price_inquiry": 0,
+        "trip_information": 1,
+        "trip_search": 0
+      },
+      "trip_search": {
+        "availability_inquiry": 0,
+        "book_trip": 1,
+        "cancel_booking": 1,
+        "cancellation": 0,
+        "company_information": 0,
+        "complaint": 0,
+        "confirmation": 0,
+        "general_conversation": 0,
+        "goodbye": 0,
+        "greeting": 0,
+        "help": 0,
+        "maintenance_request": 0,
+        "price_inquiry": 0,
+        "trip_information": 0,
+        "trip_search": 1
+      }
+    },
+    "macro_f1": 0.4986,
+    "per_class": {
+      "availability_inquiry": {
+        "f1": 0.6667,
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "book_trip": {
+        "f1": 0.2857,
+        "precision": 0.25,
+        "recall": 0.3333,
+        "support": 3
+      },
+      "cancel_booking": {
+        "f1": 0.2222,
+        "precision": 0.1667,
+        "recall": 0.3333,
+        "support": 3
+      },
+      "cancellation": {
+        "f1": 0.5714,
+        "precision": 0.5,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "company_information": {
+        "f1": 0.6667,
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "complaint": {
+        "f1": 0.6667,
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "confirmation": {
+        "f1": 0.6667,
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "general_conversation": {
+        "f1": 0.8,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "goodbye": {
+        "f1": 0.4,
+        "precision": 0.5,
+        "recall": 0.3333,
+        "support": 3
+      },
+      "greeting": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3
+      },
+      "help": {
+        "f1": 0.4,
+        "precision": 0.5,
+        "recall": 0.3333,
+        "support": 3
+      },
+      "maintenance_request": {
+        "f1": 0.6667,
+        "precision": 0.5,
+        "recall": 1.0,
+        "support": 3
+      },
+      "price_inquiry": {
+        "f1": 0.6667,
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "support": 3
+      },
+      "trip_information": {
+        "f1": 0.4,
+        "precision": 0.5,
+        "recall": 0.3333,
+        "support": 3
+      },
+      "trip_search": {
+        "f1": 0.4,
+        "precision": 0.5,
+        "recall": 0.3333,
+        "support": 3
+      }
+    },
+    "weighted_f1": 0.4986
+  },
+  "training_duration_seconds": 4.95,
+  "training_history": [
+    {
+      "epoch": 1,
+      "training_loss": 3.6782,
+      "validation_macro_f1": 0.2242
+    },
+    {
+      "epoch": 2,
+      "training_loss": 2.6086,
+      "validation_macro_f1": 0.1871
+    },
+    {
+      "epoch": 3,
+      "training_loss": 1.8428,
+      "validation_macro_f1": 0.3603
+    },
+    {
+      "epoch": 4,
+      "training_loss": 1.3252,
+      "validation_macro_f1": 0.3495
+    },
+    {
+      "epoch": 5,
+      "training_loss": 1.1629,
+      "validation_macro_f1": 0.288
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.7846,
+      "validation_macro_f1": 0.4629
+    },
+    {
+      "epoch": 7,
+      "training_loss": 0.6382,
+      "validation_macro_f1": 0.324
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.4794,
+      "validation_macro_f1": 0.4763
+    },
+    {
+      "epoch": 9,
+      "training_loss": 0.5036,
+      "validation_macro_f1": 0.3489
+    },
+    {
+      "epoch": 10,
+      "training_loss": 0.4256,
+      "validation_macro_f1": 0.44
+    },
+    {
+      "epoch": 11,
+      "training_loss": 0.2956,
+      "validation_macro_f1": 0.3914
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.2049,
+      "validation_macro_f1": 0.3959
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.2051,
+      "validation_macro_f1": 0.367
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.1536,
+      "validation_macro_f1": 0.4127
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.2033,
+      "validation_macro_f1": 0.44
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.1171,
+      "validation_macro_f1": 0.4048
+    }
+  ]
+}

@@ -1,0 +1,5016 @@
+{
+  "model_evaluation": "run",
+  "dataset_v2": {
+    "v2_hash": "8e29105e7054a3e90403141a948f3ce63c81ca59d7feea9c0f25c97875080acd",
+    "challenge_hash": "5bd53c25fbfea99f7e6d26dee5adb2a025d077bce38639327d0afef9373563d0",
+    "split_counts": {
+      "train": {
+        "availability_inquiry": 80,
+        "book_trip": 80,
+        "cancel_booking": 80,
+        "cancellation": 80,
+        "company_information": 80,
+        "complaint": 80,
+        "confirmation": 80,
+        "general_conversation": 80,
+        "goodbye": 80,
+        "greeting": 80,
+        "help": 80,
+        "maintenance_request": 80,
+        "price_inquiry": 80,
+        "trip_information": 80,
+        "trip_search": 80
+      },
+      "validation": {
+        "availability_inquiry": 20,
+        "book_trip": 20,
+        "cancel_booking": 20,
+        "cancellation": 20,
+        "company_information": 20,
+        "complaint": 20,
+        "confirmation": 20,
+        "general_conversation": 20,
+        "goodbye": 20,
+        "greeting": 20,
+        "help": 20,
+        "maintenance_request": 20,
+        "price_inquiry": 20,
+        "trip_information": 20,
+        "trip_search": 20
+      }
+    },
+    "challenge_counts": {
+      "availability_inquiry": 10,
+      "book_trip": 10,
+      "cancel_booking": 10,
+      "cancellation": 10,
+      "company_information": 10,
+      "complaint": 10,
+      "confirmation": 10,
+      "general_conversation": 10,
+      "goodbye": 10,
+      "greeting": 10,
+      "help": 10,
+      "maintenance_request": 10,
+      "price_inquiry": 10,
+      "trip_information": 10,
+      "trip_search": 10
+    },
+    "near_duplicate_threshold": 0.92
+  },
+  "challenge_count": 150,
+  "legacy_test_count": 45,
+  "legacy_test_hash": "82dd238c0fd950f0b4fa1417dd3266875ed9359f88bf6b3cd526b6dd425278f6",
+  "artifact": {
+    "directory": "backend/nlp/models/v2_exp_partial2_seed20260920",
+    "state_file": "arabert_intent_delta_v2.pt",
+    "metadata_file": "chat_intent_metadata_v2.json",
+    "format": "neyan-arabert-intent-delta-v2",
+    "base_model": "aubmindlab/bert-base-arabertv02",
+    "best_epoch": 13,
+    "validation_metrics": {
+      "accuracy": 0.99,
+      "macro_precision": 0.9908,
+      "macro_recall": 0.99,
+      "macro_f1": 0.99,
+      "weighted_f1": 0.99,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "book_trip": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "cancel_booking": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "cancellation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "company_information": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "complaint": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "confirmation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "general_conversation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "goodbye": {
+          "precision": 0.9091,
+          "recall": 1.0,
+          "f1": 0.9524,
+          "support": 20
+        },
+        "greeting": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9474,
+          "support": 20
+        },
+        "help": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "maintenance_request": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        },
+        "price_inquiry": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9744,
+          "support": 20
+        },
+        "trip_information": {
+          "precision": 0.9524,
+          "recall": 1.0,
+          "f1": 0.9756,
+          "support": 20
+        },
+        "trip_search": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 20
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 20,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "book_trip": {
+          "availability_inquiry": 0,
+          "book_trip": 20,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 20,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 20,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "company_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 20,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 20,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 20,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 20,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 20,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 2,
+          "greeting": 18,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 20,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 20,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "price_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 19,
+          "trip_information": 1,
+          "trip_search": 0
+        },
+        "trip_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 20,
+          "trip_search": 0
+        },
+        "trip_search": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 20
+        }
+      }
+    },
+    "unfreeze_last_layers": 2,
+    "device": "cuda"
+  },
+  "hybrid_confidence_threshold": 0.6,
+  "rule_only_challenge": {
+    "metrics": {
+      "accuracy": 0.1333,
+      "macro_precision": 0.3,
+      "macro_recall": 0.1333,
+      "macro_f1": 0.1714,
+      "weighted_f1": 0.1714,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "book_trip": {
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1": 0.4444,
+          "support": 10
+        },
+        "cancel_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "cancellation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "company_information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "complaint": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "confirmation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "general_conversation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "goodbye": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333,
+          "support": 10
+        },
+        "greeting": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8889,
+          "support": 10
+        },
+        "help": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "maintenance_request": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333,
+          "support": 10
+        },
+        "price_inquiry": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714,
+          "support": 10
+        },
+        "trip_information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "trip_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "book_trip": {
+          "availability_inquiry": 0,
+          "book_trip": 4,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 6
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "company_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 2,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 8
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 8,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 2,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 8
+        },
+        "price_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 2,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 4,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 4
+        },
+        "trip_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 10
+        },
+        "trip_search": {
+          "availability_inquiry": 0,
+          "book_trip": 2,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 8
+        }
+      }
+    },
+    "misclassified_examples": [
+      {
+        "text": "من عمان لإربد: في سعة فاضية؟ شو بتنصح؟",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Irbid to Amman: الرحلة مليانة ولا؟ بدي أعرف قبل القرار.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من معان للطفيلة: باقي أماكن؟ هل بتقدر توضح؟",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الزرقاء للعقبة: can two people fit؟ هذا استفساري الوحيد.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من البلقاء للعاصمة: كم متاح؟ يعني كيف؟",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عجلون للمفرق: في سعة فاضية؟ بكلمات بسيطة.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من جرش للسلط: الرحلة مليانة ولا؟ بدون ما أعمل طلب الآن.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الرمثا للبحر الميت: باقي أماكن؟ وأنا بانتظار الرد.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Amman to Aqaba: can two people fit؟ إذا كانت الخدمة متاحة.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من مادبا للكرك: كم متاح؟ للتخطيط للمشوار.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عمان لإربد: حابّة أثبت مقعد؟ شو بتنصح؟",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Irbid to Amman: بدي أوفر إلي كرسي؟ بدي أعرف قبل القرار.",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من معان للطفيلة: رتبلي سفرة؟ هل بتقدر توضح؟",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عجلون للمفرق: حابّة أثبت مقعد؟ بكلمات بسيطة.",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من جرش للسلط: بدي أوفر إلي كرسي؟ بدون ما أعمل طلب الآن.",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الرمثا للبحر الميت: رتبلي سفرة؟ وأنا بانتظار الرد.",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ شيل الحجز باسمي، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف قبل القرار. ما بدي تذكرتي، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ أرجع الحجز، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. withdraw my booked seat، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يعني كيف؟ إلغاء سفرتي، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بكلمات بسيطة. شيل الحجز باسمي، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. ما بدي تذكرتي، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وأنا بانتظار الرد. أرجع الحجز، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. withdraw my booked seat، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "للتخطيط للمشوار. إلغاء سفرتي، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "مش مناسب إلي — شو بتنصح؟",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خليها لوقت ثاني — بدي أعرف قبل القرار.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "لا تثبت شيء — هل بتقدر توضح؟",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "abort this — هذا استفساري الوحيد.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "تراجع — يعني كيف؟",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "مش مناسب إلي — بكلمات بسيطة.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خليها لوقت ثاني — بدون ما أعمل طلب الآن.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "لا تثبت شيء — وأنا بانتظار الرد.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "abort this — إذا كانت الخدمة متاحة.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "تراجع — للتخطيط للمشوار.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ من المشغّل لهذه الوجهة، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف قبل القرار. أي ناقل متوفر، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ وين ألاقي جهات النقل، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. company list please، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يعني كيف؟ شركات الباصات، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بكلمات بسيطة. من المشغّل لهذه الوجهة، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. أي ناقل متوفر، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وأنا بانتظار الرد. وين ألاقي جهات النقل، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. company list please، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "للتخطيط للمشوار. شركات الباصات، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ التجربة ما كانت عادلة، بكرا.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف قبل القرار. في اعتراض على الرحلة، المساء.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ الالتزام بالمواعيد سيء، بكرا.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. service quality disappointed me، المساء.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يعني كيف؟ السائق ما احترمنا، بكرا.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بكلمات بسيطة. التجربة ما كانت عادلة، المساء.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. في اعتراض على الرحلة، بكرا.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وأنا بانتظار الرد. الالتزام بالمواعيد سيء، المساء.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. service quality disappointed me، بكرا.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "للتخطيط للمشوار. السائق ما احترمنا، المساء.",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "ثبّت الطلب — شو بتنصح؟",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "توكلنا — بدي أعرف قبل القرار.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "تابع — هل بتقدر توضح؟",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "confirmed — هذا استفساري الوحيد.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "اختياري نعم — يعني كيف؟",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "ثبّت الطلب — بكلمات بسيطة.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "توكلنا — بدون ما أعمل طلب الآن.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "تابع — وأنا بانتظار الرد.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "confirmed — إذا كانت الخدمة متاحة.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "اختياري نعم — للتخطيط للمشوار.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو جديدك — شو بتنصح؟",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "كيف الجو عندك — بدي أعرف قبل القرار.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خلينا نحكي — هل بتقدر توضح؟",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "are you well — هذا استفساري الوحيد.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "قلي معلومة — يعني كيف؟",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو جديدك — بكلمات بسيطة.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "كيف الجو عندك — بدون ما أعمل طلب الآن.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خلينا نحكي — وأنا بانتظار الرد.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "are you well — إذا كانت الخدمة متاحة.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "قلي معلومة — للتخطيط للمشوار.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خلص شكراً — شو بتنصح؟",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "نهارك سعيد — بدي أعرف قبل القرار.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "talk later — هذا استفساري الوحيد.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وداعاً — يعني كيف؟",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خلص شكراً — بكلمات بسيطة.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "نهارك سعيد — بدون ما أعمل طلب الآن.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "talk later — إذا كانت الخدمة متاحة.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وداعاً — للتخطيط للمشوار.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يسعد صباحك — بدي أعرف قبل القرار.",
+        "expected": "greeting",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يسعد صباحك — بدون ما أعمل طلب الآن.",
+        "expected": "greeting",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ وضحلي شو أعمل، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف قبل القرار. بدّي مساعدة عامة، المساء.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ دليل الحجز وين، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. what can NEYAN do، المساء.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يعني كيف؟ مش عارف أبدأ، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بكلمات بسيطة. وضحلي شو أعمل، المساء.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. بدّي مساعدة عامة، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وأنا بانتظار الرد. دليل الحجز وين، المساء.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. what can NEYAN do، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "للتخطيط للمشوار. مش عارف أبدأ، المساء.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ فرامل السيارة مش طبيعية، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف قبل القرار. المكيف خربان بالباص، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ بدّي فحص للإطارات، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "يعني كيف؟ المركبة ما بتدور، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بكلمات بسيطة. فرامل السيارة مش طبيعية، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. المكيف خربان بالباص، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وأنا بانتظار الرد. بدّي فحص للإطارات، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "للتخطيط للمشوار. المركبة ما بتدور، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Irbid to Amman: شو الكلفة النهائية؟ بدي أعرف قبل القرار.",
+        "expected": "price_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من معان للطفيلة: السعر شامل شو؟ هل بتقدر توضح؟",
+        "expected": "price_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الزرقاء للعقبة: ticket cost please؟ هذا استفساري الوحيد.",
+        "expected": "price_inquiry",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "من جرش للسلط: شو الكلفة النهائية؟ بدون ما أعمل طلب الآن.",
+        "expected": "price_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الرمثا للبحر الميت: السعر شامل شو؟ وأنا بانتظار الرد.",
+        "expected": "price_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Amman to Aqaba: ticket cost please؟ إذا كانت الخدمة متاحة.",
+        "expected": "price_inquiry",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "من عمان لإربد: وين نقطة التجمع؟ شو بتنصح؟",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Irbid to Amman: على أي ساعة الوصول؟ بدي أعرف قبل القرار.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من معان للطفيلة: ما خط السير؟ هل بتقدر توضح؟",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الزرقاء للعقبة: is it direct؟ هذا استفساري الوحيد.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من البلقاء للعاصمة: تفاصيل المغادرة؟ يعني كيف؟",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عجلون للمفرق: وين نقطة التجمع؟ بكلمات بسيطة.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من جرش للسلط: على أي ساعة الوصول؟ بدون ما أعمل طلب الآن.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الرمثا للبحر الميت: ما خط السير؟ وأنا بانتظار الرد.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Amman to Aqaba: is it direct؟ إذا كانت الخدمة متاحة.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من مادبا للكرك: تفاصيل المغادرة؟ للتخطيط للمشوار.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عمان لإربد: في شي طالع؟ شو بتنصح؟",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Irbid to Amman: بدي أتصفح رحلات؟ بدي أعرف قبل القرار.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من معان للطفيلة: ما الخيارات المتجهة؟ هل بتقدر توضح؟",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الزرقاء للعقبة: browse departures؟ هذا استفساري الوحيد.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من البلقاء للعاصمة: هل في مواصلات؟ يعني كيف؟",
+        "expected": "trip_search",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "من عجلون للمفرق: في شي طالع؟ بكلمات بسيطة.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من جرش للسلط: بدي أتصفح رحلات؟ بدون ما أعمل طلب الآن.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الرمثا للبحر الميت: ما الخيارات المتجهة؟ وأنا بانتظار الرد.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Amman to Aqaba: browse departures؟ إذا كانت الخدمة متاحة.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من مادبا للكرك: هل في مواصلات؟ للتخطيط للمشوار.",
+        "expected": "trip_search",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      }
+    ],
+    "confidence": {
+      "all": {
+        "count": 150,
+        "mean": 0.16,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "correct": {
+        "count": 20,
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "incorrect": {
+        "count": 130,
+        "mean": 0.0308,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "model_only_challenge": {
+    "metrics": {
+      "accuracy": 0.3867,
+      "macro_precision": 0.516,
+      "macro_recall": 0.3867,
+      "macro_f1": 0.3748,
+      "weighted_f1": 0.3748,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 0.2381,
+          "recall": 0.5,
+          "f1": 0.3226,
+          "support": 10
+        },
+        "book_trip": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.1818,
+          "support": 10
+        },
+        "cancel_booking": {
+          "precision": 0.6364,
+          "recall": 0.7,
+          "f1": 0.6667,
+          "support": 10
+        },
+        "cancellation": {
+          "precision": 0.2,
+          "recall": 0.7,
+          "f1": 0.3111,
+          "support": 10
+        },
+        "company_information": {
+          "precision": 0.375,
+          "recall": 0.3,
+          "f1": 0.3333,
+          "support": 10
+        },
+        "complaint": {
+          "precision": 0.3333,
+          "recall": 0.6,
+          "f1": 0.4286,
+          "support": 10
+        },
+        "confirmation": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333,
+          "support": 10
+        },
+        "general_conversation": {
+          "precision": 0.2857,
+          "recall": 0.4,
+          "f1": 0.3333,
+          "support": 10
+        },
+        "goodbye": {
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.2857,
+          "support": 10
+        },
+        "greeting": {
+          "precision": 0.5,
+          "recall": 0.1,
+          "f1": 0.1667,
+          "support": 10
+        },
+        "help": {
+          "precision": 0.2308,
+          "recall": 0.3,
+          "f1": 0.2609,
+          "support": 10
+        },
+        "maintenance_request": {
+          "precision": 0.8333,
+          "recall": 0.5,
+          "f1": 0.625,
+          "support": 10
+        },
+        "price_inquiry": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6667,
+          "support": 10
+        },
+        "trip_information": {
+          "precision": 0.8571,
+          "recall": 0.6,
+          "f1": 0.7059,
+          "support": 10
+        },
+        "trip_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 5,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 3,
+          "company_information": 1,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 1,
+          "trip_search": 0
+        },
+        "book_trip": {
+          "availability_inquiry": 6,
+          "book_trip": 1,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 1,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 1,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 7,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 2,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 7,
+          "company_information": 1,
+          "complaint": 2,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "company_information": {
+          "availability_inquiry": 1,
+          "book_trip": 0,
+          "cancel_booking": 1,
+          "cancellation": 0,
+          "company_information": 3,
+          "complaint": 2,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 2,
+          "maintenance_request": 1,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 1,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 6,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 5,
+          "company_information": 1,
+          "complaint": 1,
+          "confirmation": 2,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 5,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 4,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 3,
+          "goodbye": 2,
+          "greeting": 1,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 5,
+          "goodbye": 1,
+          "greeting": 1,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 2,
+          "cancellation": 1,
+          "company_information": 1,
+          "complaint": 2,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 3,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 1,
+          "complaint": 3,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 5,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "price_inquiry": {
+          "availability_inquiry": 2,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 6,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "trip_information": {
+          "availability_inquiry": 1,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 1,
+          "trip_information": 6,
+          "trip_search": 0
+        },
+        "trip_search": {
+          "availability_inquiry": 6,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 3,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        }
+      }
+    },
+    "misclassified_examples": [
+      {
+        "text": "من عمان لإربد: في سعة فاضية؟ شو بتنصح؟",
+        "expected": "availability_inquiry",
+        "predicted": "cancellation",
+        "confidence": 0.4812
+      },
+      {
+        "text": "Irbid to Amman: الرحلة مليانة ولا؟ بدي أعرف قبل القرار.",
+        "expected": "availability_inquiry",
+        "predicted": "trip_information",
+        "confidence": 0.5035
+      },
+      {
+        "text": "من معان للطفيلة: باقي أماكن؟ هل بتقدر توضح؟",
+        "expected": "availability_inquiry",
+        "predicted": "cancellation",
+        "confidence": 0.5947
+      },
+      {
+        "text": "من البلقاء للعاصمة: كم متاح؟ يعني كيف؟",
+        "expected": "availability_inquiry",
+        "predicted": "cancellation",
+        "confidence": 0.4569
+      },
+      {
+        "text": "Amman to Aqaba: can two people fit؟ إذا كانت الخدمة متاحة.",
+        "expected": "availability_inquiry",
+        "predicted": "company_information",
+        "confidence": 0.1994
+      },
+      {
+        "text": "من عمان لإربد: حابّة أثبت مقعد؟ شو بتنصح؟",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.7396
+      },
+      {
+        "text": "Irbid to Amman: بدي أوفر إلي كرسي؟ بدي أعرف قبل القرار.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9981
+      },
+      {
+        "text": "من معان للطفيلة: رتبلي سفرة؟ هل بتقدر توضح؟",
+        "expected": "book_trip",
+        "predicted": "cancellation",
+        "confidence": 0.4435
+      },
+      {
+        "text": "من الزرقاء للعقبة: can you book me؟ هذا استفساري الوحيد.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.5845
+      },
+      {
+        "text": "من البلقاء للعاصمة: أريد إصدار تذكرة؟ يعني كيف؟",
+        "expected": "book_trip",
+        "predicted": "price_inquiry",
+        "confidence": 0.6238
+      },
+      {
+        "text": "من عجلون للمفرق: حابّة أثبت مقعد؟ بكلمات بسيطة.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9998
+      },
+      {
+        "text": "من جرش للسلط: بدي أوفر إلي كرسي؟ بدون ما أعمل طلب الآن.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9992
+      },
+      {
+        "text": "Amman to Aqaba: can you book me؟ إذا كانت الخدمة متاحة.",
+        "expected": "book_trip",
+        "predicted": "goodbye",
+        "confidence": 0.4661
+      },
+      {
+        "text": "من مادبا للكرك: أريد إصدار تذكرة؟ للتخطيط للمشوار.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.6388
+      },
+      {
+        "text": "بدي أعرف قبل القرار. ما بدي تذكرتي، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "help",
+        "confidence": 0.74
+      },
+      {
+        "text": "هذا استفساري الوحيد. withdraw my booked seat، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "complaint",
+        "confidence": 0.8045
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. withdraw my booked seat، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "help",
+        "confidence": 0.6387
+      },
+      {
+        "text": "abort this — هذا استفساري الوحيد.",
+        "expected": "cancellation",
+        "predicted": "complaint",
+        "confidence": 0.611
+      },
+      {
+        "text": "abort this — إذا كانت الخدمة متاحة.",
+        "expected": "cancellation",
+        "predicted": "company_information",
+        "confidence": 0.4361
+      },
+      {
+        "text": "تراجع — للتخطيط للمشوار.",
+        "expected": "cancellation",
+        "predicted": "complaint",
+        "confidence": 0.4597
+      },
+      {
+        "text": "شو بتنصح؟ من المشغّل لهذه الوجهة، بكرا.",
+        "expected": "company_information",
+        "predicted": "help",
+        "confidence": 0.6973
+      },
+      {
+        "text": "بدي أعرف قبل القرار. أي ناقل متوفر، المساء.",
+        "expected": "company_information",
+        "predicted": "availability_inquiry",
+        "confidence": 0.4247
+      },
+      {
+        "text": "هذا استفساري الوحيد. company list please، المساء.",
+        "expected": "company_information",
+        "predicted": "cancel_booking",
+        "confidence": 0.8813
+      },
+      {
+        "text": "بكلمات بسيطة. من المشغّل لهذه الوجهة، المساء.",
+        "expected": "company_information",
+        "predicted": "complaint",
+        "confidence": 0.355
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. أي ناقل متوفر، بكرا.",
+        "expected": "company_information",
+        "predicted": "maintenance_request",
+        "confidence": 0.8906
+      },
+      {
+        "text": "وأنا بانتظار الرد. وين ألاقي جهات النقل، المساء.",
+        "expected": "company_information",
+        "predicted": "complaint",
+        "confidence": 0.9742
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. company list please، بكرا.",
+        "expected": "company_information",
+        "predicted": "help",
+        "confidence": 0.5173
+      },
+      {
+        "text": "شو بتنصح؟ التجربة ما كانت عادلة، بكرا.",
+        "expected": "complaint",
+        "predicted": "cancellation",
+        "confidence": 0.7837
+      },
+      {
+        "text": "بدي أعرف قبل القرار. في اعتراض على الرحلة، المساء.",
+        "expected": "complaint",
+        "predicted": "cancel_booking",
+        "confidence": 0.6239
+      },
+      {
+        "text": "بكلمات بسيطة. التجربة ما كانت عادلة، المساء.",
+        "expected": "complaint",
+        "predicted": "cancellation",
+        "confidence": 0.8516
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. service quality disappointed me، بكرا.",
+        "expected": "complaint",
+        "predicted": "help",
+        "confidence": 0.9348
+      },
+      {
+        "text": "ثبّت الطلب — شو بتنصح؟",
+        "expected": "confirmation",
+        "predicted": "general_conversation",
+        "confidence": 0.7348
+      },
+      {
+        "text": "توكلنا — بدي أعرف قبل القرار.",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.9716
+      },
+      {
+        "text": "تابع — هل بتقدر توضح؟",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.9416
+      },
+      {
+        "text": "confirmed — هذا استفساري الوحيد.",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.8775
+      },
+      {
+        "text": "اختياري نعم — يعني كيف؟",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.9279
+      },
+      {
+        "text": "ثبّت الطلب — بكلمات بسيطة.",
+        "expected": "confirmation",
+        "predicted": "complaint",
+        "confidence": 0.4246
+      },
+      {
+        "text": "توكلنا — بدون ما أعمل طلب الآن.",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.4693
+      },
+      {
+        "text": "confirmed — إذا كانت الخدمة متاحة.",
+        "expected": "confirmation",
+        "predicted": "company_information",
+        "confidence": 0.7016
+      },
+      {
+        "text": "كيف الجو عندك — بدي أعرف قبل القرار.",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.5564
+      },
+      {
+        "text": "خلينا نحكي — هل بتقدر توضح؟",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.9227
+      },
+      {
+        "text": "are you well — هذا استفساري الوحيد.",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.3724
+      },
+      {
+        "text": "قلي معلومة — يعني كيف؟",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.8855
+      },
+      {
+        "text": "are you well — إذا كانت الخدمة متاحة.",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.4059
+      },
+      {
+        "text": "قلي معلومة — للتخطيط للمشوار.",
+        "expected": "general_conversation",
+        "predicted": "help",
+        "confidence": 0.7439
+      },
+      {
+        "text": "خلص شكراً — شو بتنصح؟",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.936
+      },
+      {
+        "text": "نهارك سعيد — بدي أعرف قبل القرار.",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.8587
+      },
+      {
+        "text": "باي باي — هل بتقدر توضح؟",
+        "expected": "goodbye",
+        "predicted": "cancellation",
+        "confidence": 0.4181
+      },
+      {
+        "text": "وداعاً — يعني كيف؟",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.9364
+      },
+      {
+        "text": "خلص شكراً — بكلمات بسيطة.",
+        "expected": "goodbye",
+        "predicted": "cancellation",
+        "confidence": 0.6654
+      },
+      {
+        "text": "نهارك سعيد — بدون ما أعمل طلب الآن.",
+        "expected": "goodbye",
+        "predicted": "complaint",
+        "confidence": 0.6515
+      },
+      {
+        "text": "باي باي — وأنا بانتظار الرد.",
+        "expected": "goodbye",
+        "predicted": "greeting",
+        "confidence": 0.5964
+      },
+      {
+        "text": "وداعاً — للتخطيط للمشوار.",
+        "expected": "goodbye",
+        "predicted": "help",
+        "confidence": 0.7895
+      },
+      {
+        "text": "يا هلا — شو بتنصح؟",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.3288
+      },
+      {
+        "text": "يسعد صباحك — بدي أعرف قبل القرار.",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.951
+      },
+      {
+        "text": "أهلين — هل بتقدر توضح؟",
+        "expected": "greeting",
+        "predicted": "cancellation",
+        "confidence": 0.2598
+      },
+      {
+        "text": "hey there — هذا استفساري الوحيد.",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.7699
+      },
+      {
+        "text": "السلام عليكم — يعني كيف؟",
+        "expected": "greeting",
+        "predicted": "cancellation",
+        "confidence": 0.6075
+      },
+      {
+        "text": "يا هلا — بكلمات بسيطة.",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.7086
+      },
+      {
+        "text": "يسعد صباحك — بدون ما أعمل طلب الآن.",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.8954
+      },
+      {
+        "text": "hey there — إذا كانت الخدمة متاحة.",
+        "expected": "greeting",
+        "predicted": "help",
+        "confidence": 0.6704
+      },
+      {
+        "text": "السلام عليكم — للتخطيط للمشوار.",
+        "expected": "greeting",
+        "predicted": "goodbye",
+        "confidence": 0.8363
+      },
+      {
+        "text": "شو بتنصح؟ وضحلي شو أعمل، بكرا.",
+        "expected": "help",
+        "predicted": "general_conversation",
+        "confidence": 0.5055
+      },
+      {
+        "text": "هل بتقدر توضح؟ دليل الحجز وين، بكرا.",
+        "expected": "help",
+        "predicted": "cancel_booking",
+        "confidence": 0.4443
+      },
+      {
+        "text": "هذا استفساري الوحيد. what can NEYAN do، المساء.",
+        "expected": "help",
+        "predicted": "complaint",
+        "confidence": 0.923
+      },
+      {
+        "text": "يعني كيف؟ مش عارف أبدأ، بكرا.",
+        "expected": "help",
+        "predicted": "cancellation",
+        "confidence": 0.9979
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. بدّي مساعدة عامة، بكرا.",
+        "expected": "help",
+        "predicted": "complaint",
+        "confidence": 0.959
+      },
+      {
+        "text": "وأنا بانتظار الرد. دليل الحجز وين، المساء.",
+        "expected": "help",
+        "predicted": "cancel_booking",
+        "confidence": 0.9875
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. what can NEYAN do، بكرا.",
+        "expected": "help",
+        "predicted": "company_information",
+        "confidence": 0.7687
+      },
+      {
+        "text": "بدي أعرف قبل القرار. المكيف خربان بالباص، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "complaint",
+        "confidence": 0.727
+      },
+      {
+        "text": "هذا استفساري الوحيد. engine warning appeared، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "complaint",
+        "confidence": 0.3733
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. المكيف خربان بالباص، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "complaint",
+        "confidence": 0.6737
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. engine warning appeared، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "company_information",
+        "confidence": 0.4957
+      },
+      {
+        "text": "للتخطيط للمشوار. المركبة ما بتدور، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "help",
+        "confidence": 0.7909
+      },
+      {
+        "text": "من الزرقاء للعقبة: ticket cost please؟ هذا استفساري الوحيد.",
+        "expected": "price_inquiry",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9195
+      },
+      {
+        "text": "من البلقاء للعاصمة: بكم المشوار؟ يعني كيف؟",
+        "expected": "price_inquiry",
+        "predicted": "cancellation",
+        "confidence": 0.6574
+      },
+      {
+        "text": "من عجلون للمفرق: قديش بدفع؟ بكلمات بسيطة.",
+        "expected": "price_inquiry",
+        "predicted": "cancellation",
+        "confidence": 0.4116
+      },
+      {
+        "text": "من مادبا للكرك: بكم المشوار؟ للتخطيط للمشوار.",
+        "expected": "price_inquiry",
+        "predicted": "availability_inquiry",
+        "confidence": 0.6894
+      },
+      {
+        "text": "من عمان لإربد: وين نقطة التجمع؟ شو بتنصح؟",
+        "expected": "trip_information",
+        "predicted": "cancellation",
+        "confidence": 0.631
+      },
+      {
+        "text": "من البلقاء للعاصمة: تفاصيل المغادرة؟ يعني كيف؟",
+        "expected": "trip_information",
+        "predicted": "cancellation",
+        "confidence": 0.5912
+      },
+      {
+        "text": "من عجلون للمفرق: وين نقطة التجمع؟ بكلمات بسيطة.",
+        "expected": "trip_information",
+        "predicted": "availability_inquiry",
+        "confidence": 0.565
+      },
+      {
+        "text": "Amman to Aqaba: is it direct؟ إذا كانت الخدمة متاحة.",
+        "expected": "trip_information",
+        "predicted": "price_inquiry",
+        "confidence": 0.3516
+      },
+      {
+        "text": "من عمان لإربد: في شي طالع؟ شو بتنصح؟",
+        "expected": "trip_search",
+        "predicted": "cancellation",
+        "confidence": 0.616
+      },
+      {
+        "text": "Irbid to Amman: بدي أتصفح رحلات؟ بدي أعرف قبل القرار.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9582
+      },
+      {
+        "text": "من معان للطفيلة: ما الخيارات المتجهة؟ هل بتقدر توضح؟",
+        "expected": "trip_search",
+        "predicted": "cancellation",
+        "confidence": 0.3995
+      },
+      {
+        "text": "من الزرقاء للعقبة: browse departures؟ هذا استفساري الوحيد.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9843
+      },
+      {
+        "text": "من البلقاء للعاصمة: هل في مواصلات؟ يعني كيف؟",
+        "expected": "trip_search",
+        "predicted": "cancellation",
+        "confidence": 0.4541
+      },
+      {
+        "text": "من عجلون للمفرق: في شي طالع؟ بكلمات بسيطة.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.895
+      },
+      {
+        "text": "من جرش للسلط: بدي أتصفح رحلات؟ بدون ما أعمل طلب الآن.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.5726
+      },
+      {
+        "text": "من الرمثا للبحر الميت: ما الخيارات المتجهة؟ وأنا بانتظار الرد.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.921
+      },
+      {
+        "text": "Amman to Aqaba: browse departures؟ إذا كانت الخدمة متاحة.",
+        "expected": "trip_search",
+        "predicted": "help",
+        "confidence": 0.7276
+      },
+      {
+        "text": "من مادبا للكرك: هل في مواصلات؟ للتخطيط للمشوار.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.618
+      }
+    ],
+    "confidence": {
+      "all": {
+        "count": 150,
+        "mean": 0.7376,
+        "min": 0.1994,
+        "max": 1.0
+      },
+      "correct": {
+        "count": 58,
+        "mean": 0.8252,
+        "min": 0.4332,
+        "max": 1.0
+      },
+      "incorrect": {
+        "count": 92,
+        "mean": 0.6824,
+        "min": 0.1994,
+        "max": 0.9998
+      }
+    }
+  },
+  "hybrid_challenge": {
+    "metrics": {
+      "accuracy": 0.4333,
+      "macro_precision": 0.6154,
+      "macro_recall": 0.4333,
+      "macro_f1": 0.4696,
+      "weighted_f1": 0.4696,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 0.3333,
+          "recall": 0.4,
+          "f1": 0.3636,
+          "support": 10
+        },
+        "book_trip": {
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1": 0.4444,
+          "support": 10
+        },
+        "cancel_booking": {
+          "precision": 0.625,
+          "recall": 0.5,
+          "f1": 0.5556,
+          "support": 10
+        },
+        "cancellation": {
+          "precision": 0.3684,
+          "recall": 0.7,
+          "f1": 0.4828,
+          "support": 10
+        },
+        "company_information": {
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.2857,
+          "support": 10
+        },
+        "complaint": {
+          "precision": 0.4286,
+          "recall": 0.6,
+          "f1": 0.5,
+          "support": 10
+        },
+        "confirmation": {
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.3333,
+          "support": 10
+        },
+        "general_conversation": {
+          "precision": 0.4,
+          "recall": 0.4,
+          "f1": 0.4,
+          "support": 10
+        },
+        "goodbye": {
+          "precision": 1.0,
+          "recall": 0.3,
+          "f1": 0.4615,
+          "support": 10
+        },
+        "greeting": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8889,
+          "support": 10
+        },
+        "help": {
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.2,
+          "support": 10
+        },
+        "maintenance_request": {
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1": 0.7778,
+          "support": 10
+        },
+        "price_inquiry": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8889,
+          "support": 10
+        },
+        "trip_information": {
+          "precision": 1.0,
+          "recall": 0.3,
+          "f1": 0.4615,
+          "support": 10
+        },
+        "trip_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 4,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 6
+        },
+        "book_trip": {
+          "availability_inquiry": 4,
+          "book_trip": 4,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 5,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 2,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 7,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "company_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 1,
+          "cancellation": 0,
+          "company_information": 2,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 1,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 4
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 1,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 6,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 4,
+          "company_information": 1,
+          "complaint": 0,
+          "confirmation": 2,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 4,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 3
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 3,
+          "goodbye": 3,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 2,
+          "goodbye": 0,
+          "greeting": 8,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 1,
+          "cancellation": 1,
+          "company_information": 1,
+          "complaint": 2,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 2,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 3
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 2,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 7,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "price_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 2,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 8,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "trip_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 3,
+          "trip_search": 0,
+          "unknown": 6
+        },
+        "trip_search": {
+          "availability_inquiry": 4,
+          "book_trip": 2,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        }
+      }
+    },
+    "misclassified_examples": [
+      {
+        "text": "من عمان لإربد: في سعة فاضية؟ شو بتنصح؟",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Irbid to Amman: الرحلة مليانة ولا؟ بدي أعرف قبل القرار.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من معان للطفيلة: باقي أماكن؟ هل بتقدر توضح؟",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من البلقاء للعاصمة: كم متاح؟ يعني كيف؟",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من جرش للسلط: الرحلة مليانة ولا؟ بدون ما أعمل طلب الآن.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Amman to Aqaba: can two people fit؟ إذا كانت الخدمة متاحة.",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عمان لإربد: حابّة أثبت مقعد؟ شو بتنصح؟",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.7396
+      },
+      {
+        "text": "Irbid to Amman: بدي أوفر إلي كرسي؟ بدي أعرف قبل القرار.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9981
+      },
+      {
+        "text": "من معان للطفيلة: رتبلي سفرة؟ هل بتقدر توضح؟",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عجلون للمفرق: حابّة أثبت مقعد؟ بكلمات بسيطة.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9998
+      },
+      {
+        "text": "من جرش للسلط: بدي أوفر إلي كرسي؟ بدون ما أعمل طلب الآن.",
+        "expected": "book_trip",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9992
+      },
+      {
+        "text": "من الرمثا للبحر الميت: رتبلي سفرة؟ وأنا بانتظار الرد.",
+        "expected": "book_trip",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف قبل القرار. ما بدي تذكرتي، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "help",
+        "confidence": 0.74
+      },
+      {
+        "text": "هل بتقدر توضح؟ أرجع الحجز، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. withdraw my booked seat، المساء.",
+        "expected": "cancel_booking",
+        "predicted": "complaint",
+        "confidence": 0.8045
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. ما بدي تذكرتي، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. withdraw my booked seat، بكرا.",
+        "expected": "cancel_booking",
+        "predicted": "help",
+        "confidence": 0.6387
+      },
+      {
+        "text": "abort this — هذا استفساري الوحيد.",
+        "expected": "cancellation",
+        "predicted": "complaint",
+        "confidence": 0.611
+      },
+      {
+        "text": "abort this — إذا كانت الخدمة متاحة.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "تراجع — للتخطيط للمشوار.",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ من المشغّل لهذه الوجهة، بكرا.",
+        "expected": "company_information",
+        "predicted": "help",
+        "confidence": 0.6973
+      },
+      {
+        "text": "بدي أعرف قبل القرار. أي ناقل متوفر، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ وين ألاقي جهات النقل، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. company list please، المساء.",
+        "expected": "company_information",
+        "predicted": "cancel_booking",
+        "confidence": 0.8813
+      },
+      {
+        "text": "بكلمات بسيطة. من المشغّل لهذه الوجهة، المساء.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. أي ناقل متوفر، بكرا.",
+        "expected": "company_information",
+        "predicted": "maintenance_request",
+        "confidence": 0.8906
+      },
+      {
+        "text": "وأنا بانتظار الرد. وين ألاقي جهات النقل، المساء.",
+        "expected": "company_information",
+        "predicted": "complaint",
+        "confidence": 0.9742
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. company list please، بكرا.",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "شو بتنصح؟ التجربة ما كانت عادلة، بكرا.",
+        "expected": "complaint",
+        "predicted": "cancellation",
+        "confidence": 0.7837
+      },
+      {
+        "text": "بدي أعرف قبل القرار. في اعتراض على الرحلة، المساء.",
+        "expected": "complaint",
+        "predicted": "cancel_booking",
+        "confidence": 0.6239
+      },
+      {
+        "text": "بكلمات بسيطة. التجربة ما كانت عادلة، المساء.",
+        "expected": "complaint",
+        "predicted": "cancellation",
+        "confidence": 0.8516
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. service quality disappointed me، بكرا.",
+        "expected": "complaint",
+        "predicted": "help",
+        "confidence": 0.9348
+      },
+      {
+        "text": "ثبّت الطلب — شو بتنصح؟",
+        "expected": "confirmation",
+        "predicted": "general_conversation",
+        "confidence": 0.7348
+      },
+      {
+        "text": "توكلنا — بدي أعرف قبل القرار.",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.9716
+      },
+      {
+        "text": "تابع — هل بتقدر توضح؟",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.9416
+      },
+      {
+        "text": "confirmed — هذا استفساري الوحيد.",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.8775
+      },
+      {
+        "text": "اختياري نعم — يعني كيف؟",
+        "expected": "confirmation",
+        "predicted": "cancellation",
+        "confidence": 0.9279
+      },
+      {
+        "text": "ثبّت الطلب — بكلمات بسيطة.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "توكلنا — بدون ما أعمل طلب الآن.",
+        "expected": "confirmation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "confirmed — إذا كانت الخدمة متاحة.",
+        "expected": "confirmation",
+        "predicted": "company_information",
+        "confidence": 0.7016
+      },
+      {
+        "text": "كيف الجو عندك — بدي أعرف قبل القرار.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "خلينا نحكي — هل بتقدر توضح؟",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.9227
+      },
+      {
+        "text": "are you well — هذا استفساري الوحيد.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "قلي معلومة — يعني كيف؟",
+        "expected": "general_conversation",
+        "predicted": "cancellation",
+        "confidence": 0.8855
+      },
+      {
+        "text": "are you well — إذا كانت الخدمة متاحة.",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "قلي معلومة — للتخطيط للمشوار.",
+        "expected": "general_conversation",
+        "predicted": "help",
+        "confidence": 0.7439
+      },
+      {
+        "text": "خلص شكراً — شو بتنصح؟",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.936
+      },
+      {
+        "text": "نهارك سعيد — بدي أعرف قبل القرار.",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.8587
+      },
+      {
+        "text": "وداعاً — يعني كيف؟",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.9364
+      },
+      {
+        "text": "خلص شكراً — بكلمات بسيطة.",
+        "expected": "goodbye",
+        "predicted": "cancellation",
+        "confidence": 0.6654
+      },
+      {
+        "text": "نهارك سعيد — بدون ما أعمل طلب الآن.",
+        "expected": "goodbye",
+        "predicted": "complaint",
+        "confidence": 0.6515
+      },
+      {
+        "text": "talk later — إذا كانت الخدمة متاحة.",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "وداعاً — للتخطيط للمشوار.",
+        "expected": "goodbye",
+        "predicted": "help",
+        "confidence": 0.7895
+      },
+      {
+        "text": "يسعد صباحك — بدي أعرف قبل القرار.",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.951
+      },
+      {
+        "text": "يسعد صباحك — بدون ما أعمل طلب الآن.",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.8954
+      },
+      {
+        "text": "شو بتنصح؟ وضحلي شو أعمل، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هل بتقدر توضح؟ دليل الحجز وين، بكرا.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "هذا استفساري الوحيد. what can NEYAN do، المساء.",
+        "expected": "help",
+        "predicted": "complaint",
+        "confidence": 0.923
+      },
+      {
+        "text": "يعني كيف؟ مش عارف أبدأ، بكرا.",
+        "expected": "help",
+        "predicted": "cancellation",
+        "confidence": 0.9979
+      },
+      {
+        "text": "بكلمات بسيطة. وضحلي شو أعمل، المساء.",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. بدّي مساعدة عامة، بكرا.",
+        "expected": "help",
+        "predicted": "complaint",
+        "confidence": 0.959
+      },
+      {
+        "text": "وأنا بانتظار الرد. دليل الحجز وين، المساء.",
+        "expected": "help",
+        "predicted": "cancel_booking",
+        "confidence": 0.9875
+      },
+      {
+        "text": "إذا كانت الخدمة متاحة. what can NEYAN do، بكرا.",
+        "expected": "help",
+        "predicted": "company_information",
+        "confidence": 0.7687
+      },
+      {
+        "text": "بدي أعرف قبل القرار. المكيف خربان بالباص، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "complaint",
+        "confidence": 0.727
+      },
+      {
+        "text": "بدون ما أعمل طلب الآن. المكيف خربان بالباص، بكرا.",
+        "expected": "maintenance_request",
+        "predicted": "complaint",
+        "confidence": 0.6737
+      },
+      {
+        "text": "للتخطيط للمشوار. المركبة ما بتدور، المساء.",
+        "expected": "maintenance_request",
+        "predicted": "help",
+        "confidence": 0.7909
+      },
+      {
+        "text": "من الزرقاء للعقبة: ticket cost please؟ هذا استفساري الوحيد.",
+        "expected": "price_inquiry",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "Amman to Aqaba: ticket cost please؟ إذا كانت الخدمة متاحة.",
+        "expected": "price_inquiry",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "من عمان لإربد: وين نقطة التجمع؟ شو بتنصح؟",
+        "expected": "trip_information",
+        "predicted": "cancellation",
+        "confidence": 0.631
+      },
+      {
+        "text": "من معان للطفيلة: ما خط السير؟ هل بتقدر توضح؟",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الزرقاء للعقبة: is it direct؟ هذا استفساري الوحيد.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من البلقاء للعاصمة: تفاصيل المغادرة؟ يعني كيف؟",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عجلون للمفرق: وين نقطة التجمع؟ بكلمات بسيطة.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "Amman to Aqaba: is it direct؟ إذا كانت الخدمة متاحة.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من مادبا للكرك: تفاصيل المغادرة؟ للتخطيط للمشوار.",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من عمان لإربد: في شي طالع؟ شو بتنصح؟",
+        "expected": "trip_search",
+        "predicted": "cancellation",
+        "confidence": 0.616
+      },
+      {
+        "text": "Irbid to Amman: بدي أتصفح رحلات؟ بدي أعرف قبل القرار.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9582
+      },
+      {
+        "text": "من معان للطفيلة: ما الخيارات المتجهة؟ هل بتقدر توضح؟",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الزرقاء للعقبة: browse departures؟ هذا استفساري الوحيد.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.9843
+      },
+      {
+        "text": "من البلقاء للعاصمة: هل في مواصلات؟ يعني كيف؟",
+        "expected": "trip_search",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "من عجلون للمفرق: في شي طالع؟ بكلمات بسيطة.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.895
+      },
+      {
+        "text": "من جرش للسلط: بدي أتصفح رحلات؟ بدون ما أعمل طلب الآن.",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "من الرمثا للبحر الميت: ما الخيارات المتجهة؟ وأنا بانتظار الرد.",
+        "expected": "trip_search",
+        "predicted": "availability_inquiry",
+        "confidence": 0.921
+      },
+      {
+        "text": "Amman to Aqaba: browse departures؟ إذا كانت الخدمة متاحة.",
+        "expected": "trip_search",
+        "predicted": "help",
+        "confidence": 0.7276
+      },
+      {
+        "text": "من مادبا للكرك: هل في مواصلات؟ للتخطيط للمشوار.",
+        "expected": "trip_search",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      }
+    ],
+    "confidence": {
+      "all": {
+        "count": 150,
+        "mean": 0.7,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "correct": {
+        "count": 65,
+        "mean": 0.9367,
+        "min": 0.6424,
+        "max": 1.0
+      },
+      "incorrect": {
+        "count": 85,
+        "mean": 0.5191,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "rule_only_legacy_test": {
+    "metrics": {
+      "accuracy": 0.4444,
+      "macro_precision": 0.75,
+      "macro_recall": 0.4444,
+      "macro_f1": 0.5083,
+      "weighted_f1": 0.5083,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "book_trip": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 3
+        },
+        "cancel_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "cancellation": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "company_information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "complaint": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "confirmation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "general_conversation": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "goodbye": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "greeting": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "support": 3
+        },
+        "help": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "maintenance_request": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        "price_inquiry": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        "trip_information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "trip_search": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 1,
+          "book_trip": 1,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "book_trip": {
+          "availability_inquiry": 0,
+          "book_trip": 3,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 2,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "company_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 3
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 3,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 1,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 3,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 2
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 2,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "price_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 2,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "trip_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 3
+        },
+        "trip_search": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 1,
+          "unknown": 2
+        }
+      }
+    },
+    "misclassified_examples": [
+      {
+        "text": "يلا سلام",
+        "expected": "goodbye",
+        "predicted": "greeting",
+        "confidence": 1.0
+      },
+      {
+        "text": "have a nice day",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "كيف الغي حجز قائم",
+        "expected": "cancel_booking",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "الغاء تذكرتي",
+        "expected": "cancel_booking",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "i need to cancel a booking",
+        "expected": "cancel_booking",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "وين بلاقي رحلات لمعان",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "اعرض خيارات السفر",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "متى موعد الانطلاق",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "احكيلي عن مسار الرحلة",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "does it stop on the way",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "مين مشغل الرحلات",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "اعرضلي شركات السفر",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "company options please",
+        "expected": "company_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "في مشكلة بالسيارة",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي اقدم اعتراض",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "السائق كان غير مهذب",
+        "expected": "complaint",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدّي شرح",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "how does this work",
+        "expected": "help",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدي أعرف سعر الرحلة",
+        "expected": "price_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "كم راكب بقدر احجز",
+        "expected": "availability_inquiry",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "are seats available",
+        "expected": "availability_inquiry",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "ما ابغى اكمل",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "مش موافق",
+        "expected": "cancellation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدّي نحكي شوي",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "tell me something interesting",
+        "expected": "general_conversation",
+        "predicted": "unknown",
+        "confidence": 0.0
+      }
+    ],
+    "confidence": {
+      "all": {
+        "count": 45,
+        "mean": 0.5333,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "correct": {
+        "count": 20,
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "incorrect": {
+        "count": 25,
+        "mean": 0.16,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "model_only_legacy_test": {
+    "metrics": {
+      "accuracy": 0.4,
+      "macro_precision": 0.4687,
+      "macro_recall": 0.4,
+      "macro_f1": 0.3764,
+      "weighted_f1": 0.3764,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "book_trip": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "cancel_booking": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "support": 3
+        },
+        "cancellation": {
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "f1": 0.3333,
+          "support": 3
+        },
+        "company_information": {
+          "precision": 0.5,
+          "recall": 0.6667,
+          "f1": 0.5714,
+          "support": 3
+        },
+        "complaint": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.75,
+          "support": 3
+        },
+        "confirmation": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "support": 3
+        },
+        "general_conversation": {
+          "precision": 0.2308,
+          "recall": 1.0,
+          "f1": 0.375,
+          "support": 3
+        },
+        "goodbye": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "greeting": {
+          "precision": 0.2,
+          "recall": 0.3333,
+          "f1": 0.25,
+          "support": 3
+        },
+        "help": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "maintenance_request": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "support": 3
+        },
+        "price_inquiry": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "trip_information": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "trip_search": {
+          "precision": 0.5,
+          "recall": 0.3333,
+          "f1": 0.4,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 1,
+          "book_trip": 1,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 1,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "book_trip": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 1,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 1
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 2,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 1,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "company_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 2,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 3,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 1,
+          "general_conversation": 2,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 3,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 1,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 1,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 1,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 1,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "price_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 1,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 1,
+          "trip_information": 0,
+          "trip_search": 0
+        },
+        "trip_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 2,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 1,
+          "trip_search": 0
+        },
+        "trip_search": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 1,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 1
+        }
+      }
+    },
+    "misclassified_examples": [
+      {
+        "text": "سلام عليكم",
+        "expected": "greeting",
+        "predicted": "goodbye",
+        "confidence": 0.7415
+      },
+      {
+        "text": "good evening",
+        "expected": "greeting",
+        "predicted": "general_conversation",
+        "confidence": 0.9036
+      },
+      {
+        "text": "يلا سلام",
+        "expected": "goodbye",
+        "predicted": "greeting",
+        "confidence": 0.9978
+      },
+      {
+        "text": "ما في شي ثاني",
+        "expected": "goodbye",
+        "predicted": "cancellation",
+        "confidence": 0.9919
+      },
+      {
+        "text": "have a nice day",
+        "expected": "goodbye",
+        "predicted": "general_conversation",
+        "confidence": 0.5323
+      },
+      {
+        "text": "حابب اعمل حجز",
+        "expected": "book_trip",
+        "predicted": "cancel_booking",
+        "confidence": 0.4107
+      },
+      {
+        "text": "بدي رحلة للطفيلة",
+        "expected": "book_trip",
+        "predicted": "trip_search",
+        "confidence": 0.9999
+      },
+      {
+        "text": "i want to travel",
+        "expected": "book_trip",
+        "predicted": "general_conversation",
+        "confidence": 0.7804
+      },
+      {
+        "text": "i need to cancel a booking",
+        "expected": "cancel_booking",
+        "predicted": "complaint",
+        "confidence": 0.3912
+      },
+      {
+        "text": "اعرض خيارات السفر",
+        "expected": "trip_search",
+        "predicted": "general_conversation",
+        "confidence": 0.4983
+      },
+      {
+        "text": "list trips for tomorrow",
+        "expected": "trip_search",
+        "predicted": "company_information",
+        "confidence": 0.737
+      },
+      {
+        "text": "احكيلي عن مسار الرحلة",
+        "expected": "trip_information",
+        "predicted": "general_conversation",
+        "confidence": 0.9927
+      },
+      {
+        "text": "does it stop on the way",
+        "expected": "trip_information",
+        "predicted": "general_conversation",
+        "confidence": 0.3808
+      },
+      {
+        "text": "company options please",
+        "expected": "company_information",
+        "predicted": "greeting",
+        "confidence": 0.6401
+      },
+      {
+        "text": "في مشكلة بالسيارة",
+        "expected": "maintenance_request",
+        "predicted": "complaint",
+        "confidence": 0.5554
+      },
+      {
+        "text": "need an oil change",
+        "expected": "maintenance_request",
+        "predicted": "general_conversation",
+        "confidence": 0.8986
+      },
+      {
+        "text": "بدّي شرح",
+        "expected": "help",
+        "predicted": "cancellation",
+        "confidence": 0.8508
+      },
+      {
+        "text": "شو الخدمات المتوفرة",
+        "expected": "help",
+        "predicted": "company_information",
+        "confidence": 0.9752
+      },
+      {
+        "text": "how does this work",
+        "expected": "help",
+        "predicted": "general_conversation",
+        "confidence": 0.7926
+      },
+      {
+        "text": "قديش بدفع",
+        "expected": "price_inquiry",
+        "predicted": "greeting",
+        "confidence": 0.7999
+      },
+      {
+        "text": "what does it cost",
+        "expected": "price_inquiry",
+        "predicted": "goodbye",
+        "confidence": 0.5128
+      },
+      {
+        "text": "كم راكب بقدر احجز",
+        "expected": "availability_inquiry",
+        "predicted": "book_trip",
+        "confidence": 0.7736
+      },
+      {
+        "text": "are seats available",
+        "expected": "availability_inquiry",
+        "predicted": "maintenance_request",
+        "confidence": 0.734
+      },
+      {
+        "text": "sure",
+        "expected": "confirmation",
+        "predicted": "general_conversation",
+        "confidence": 0.9518
+      },
+      {
+        "text": "صحيح",
+        "expected": "confirmation",
+        "predicted": "general_conversation",
+        "confidence": 0.9671
+      },
+      {
+        "text": "ما ابغى اكمل",
+        "expected": "cancellation",
+        "predicted": "confirmation",
+        "confidence": 0.965
+      },
+      {
+        "text": "stop",
+        "expected": "cancellation",
+        "predicted": "greeting",
+        "confidence": 0.7796
+      }
+    ],
+    "confidence": {
+      "all": {
+        "count": 45,
+        "mean": 0.843,
+        "min": 0.3808,
+        "max": 1.0
+      },
+      "correct": {
+        "count": 18,
+        "mean": 0.9655,
+        "min": 0.8336,
+        "max": 1.0
+      },
+      "incorrect": {
+        "count": 27,
+        "mean": 0.7613,
+        "min": 0.3808,
+        "max": 0.9999
+      }
+    }
+  },
+  "hybrid_legacy_test": {
+    "metrics": {
+      "accuracy": 0.6889,
+      "macro_precision": 0.8522,
+      "macro_recall": 0.6889,
+      "macro_f1": 0.6971,
+      "weighted_f1": 0.6971,
+      "per_class": {
+        "availability_inquiry": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "book_trip": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 3
+        },
+        "cancel_booking": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "cancellation": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "support": 3
+        },
+        "company_information": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        },
+        "complaint": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "confirmation": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "support": 3
+        },
+        "general_conversation": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.75,
+          "support": 3
+        },
+        "goodbye": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "greeting": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.75,
+          "support": 3
+        },
+        "help": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "maintenance_request": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "support": 3
+        },
+        "price_inquiry": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "trip_information": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "trip_search": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "availability_inquiry": {
+          "availability_inquiry": 1,
+          "book_trip": 1,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 1,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "book_trip": {
+          "availability_inquiry": 0,
+          "book_trip": 3,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "cancel_booking": {
+          "availability_inquiry": 0,
+          "book_trip": 2,
+          "cancel_booking": 1,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "cancellation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 2,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 1,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "company_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 2,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "complaint": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 3,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "confirmation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 3,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "general_conversation": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 3,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "goodbye": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 1,
+          "greeting": 1,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "greeting": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 3,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "help": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 1,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 1,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "maintenance_request": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 2,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "price_inquiry": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 3,
+          "trip_information": 0,
+          "trip_search": 0,
+          "unknown": 0
+        },
+        "trip_information": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 1,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 1,
+          "trip_search": 0,
+          "unknown": 1
+        },
+        "trip_search": {
+          "availability_inquiry": 0,
+          "book_trip": 0,
+          "cancel_booking": 0,
+          "cancellation": 0,
+          "company_information": 0,
+          "complaint": 0,
+          "confirmation": 0,
+          "general_conversation": 0,
+          "goodbye": 0,
+          "greeting": 0,
+          "help": 0,
+          "maintenance_request": 0,
+          "price_inquiry": 0,
+          "trip_information": 0,
+          "trip_search": 2,
+          "unknown": 1
+        }
+      }
+    },
+    "misclassified_examples": [
+      {
+        "text": "يلا سلام",
+        "expected": "goodbye",
+        "predicted": "greeting",
+        "confidence": 1.0
+      },
+      {
+        "text": "have a nice day",
+        "expected": "goodbye",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "كيف الغي حجز قائم",
+        "expected": "cancel_booking",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "i need to cancel a booking",
+        "expected": "cancel_booking",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "اعرض خيارات السفر",
+        "expected": "trip_search",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "احكيلي عن مسار الرحلة",
+        "expected": "trip_information",
+        "predicted": "general_conversation",
+        "confidence": 0.9927
+      },
+      {
+        "text": "does it stop on the way",
+        "expected": "trip_information",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "company options please",
+        "expected": "company_information",
+        "predicted": "greeting",
+        "confidence": 0.6401
+      },
+      {
+        "text": "في مشكلة بالسيارة",
+        "expected": "maintenance_request",
+        "predicted": "unknown",
+        "confidence": 0.0
+      },
+      {
+        "text": "بدّي شرح",
+        "expected": "help",
+        "predicted": "cancellation",
+        "confidence": 0.8508
+      },
+      {
+        "text": "how does this work",
+        "expected": "help",
+        "predicted": "general_conversation",
+        "confidence": 0.7926
+      },
+      {
+        "text": "كم راكب بقدر احجز",
+        "expected": "availability_inquiry",
+        "predicted": "book_trip",
+        "confidence": 1.0
+      },
+      {
+        "text": "are seats available",
+        "expected": "availability_inquiry",
+        "predicted": "maintenance_request",
+        "confidence": 0.734
+      },
+      {
+        "text": "ما ابغى اكمل",
+        "expected": "cancellation",
+        "predicted": "confirmation",
+        "confidence": 0.965
+      }
+    ],
+    "confidence": {
+      "all": {
+        "count": 45,
+        "mean": 0.8787,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "correct": {
+        "count": 31,
+        "mean": 0.9861,
+        "min": 0.8336,
+        "max": 1.0
+      },
+      "incorrect": {
+        "count": 14,
+        "mean": 0.6411,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "latency": {
+    "count": 100,
+    "mean_ms": 9.52,
+    "median_ms": 8.56,
+    "p95_ms": 16.45,
+    "device": "cuda"
+  }
+}

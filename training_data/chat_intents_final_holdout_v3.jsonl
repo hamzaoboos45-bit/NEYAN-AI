@@ -1,0 +1,300 @@
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل Amman to Aqaba بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل Irbid to Amman بكرا"}
+{"family": "v3-holdout-availability_inquiry-0", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "لسا في محل من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لمقعد واحد fit من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لشخصين fit من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لثلاثة ركاب fit من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لمقعدين fit من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لعائلتي fit من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لمقعد واحد fit من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لشخصين fit من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لثلاثة ركاب fit Amman to Aqaba بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لمقعدين fit Irbid to Amman بكرا"}
+{"family": "v3-holdout-availability_inquiry-1", "intent": "availability_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "can لعائلتي fit من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي Amman to Aqaba بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي Irbid to Amman بكرا"}
+{"family": "v3-holdout-book_trip-0", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أعمل حجز فعلي من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لمقعد واحد من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لشخصين من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لثلاثة ركاب من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لمقعدين من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لعائلتي من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لمقعد واحد من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لشخصين من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لثلاثة ركاب Amman to Aqaba بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لمقعدين Irbid to Amman بكرا"}
+{"family": "v3-holdout-book_trip-1", "intent": "book_trip", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please book لعائلتي من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ الحجز السابق في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ العرض الحالي في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-cancel_booking-0", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ألغِ العملية الحالية في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel الحجز السابق في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel العرض الحالي في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-cancel_booking-1", "intent": "cancel_booking", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "I want to cancel العملية الحالية في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي الحجز السابق في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي العرض الحالي في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-cancellation-0", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نلغي العملية الحالية في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue الحجز السابق في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue العرض الحالي في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-cancellation-1", "intent": "cancellation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "do not continue العملية الحالية في التطبيق"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة Amman to Aqaba بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة Irbid to Amman بكرا"}
+{"family": "v3-holdout-company_information-0", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "من هو الناقل لهذه الوجهة من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving Amman to Aqaba بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving Irbid to Amman بكرا"}
+{"family": "v3-holdout-company_information-1", "intent": "company_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "list companies serving من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص الحجز السابق في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص العرض الحالي في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-complaint-0", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "سجّل شكوى بخصوص العملية الحالية في التطبيق"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with الحجز السابق في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with التذكرة الموجودة في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with العرض الحالي في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with هذه الخطوة في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with الطلب الذي بدأته في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with الخيار الظاهر في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with الرحلة الأخيرة في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with حجزي من التطبيق في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with الطلب المعروض في التطبيق was unacceptable"}
+{"family": "v3-holdout-complaint-1", "intent": "complaint", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "the experience with العملية الحالية في التطبيق was unacceptable"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت الحجز السابق في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت العرض الحالي في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-confirmation-0", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ثبت العملية الحالية في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with الحجز السابق في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with العرض الحالي في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-confirmation-1", "intent": "confirmation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "confirmed, go ahead with العملية الحالية في التطبيق"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي يا نيان بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي يا فريق نيان بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي لأول مرة بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي هذا الصباح بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي هذا المساء بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي في بداية استخدامي بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي قبل ما أبدأ بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي من التطبيق بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي من الأردن بكرا"}
+{"family": "v3-holdout-general_conversation-0", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "خلينا نحكي شوي اليوم بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today يا نيان بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today يا فريق نيان بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today لأول مرة بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today هذا الصباح بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today هذا المساء بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today في بداية استخدامي بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today قبل ما أبدأ بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today من التطبيق بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today من الأردن بكرا"}
+{"family": "v3-holdout-general_conversation-1", "intent": "general_conversation", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "how are you today اليوم بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام يا نيان بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام يا فريق نيان بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام لأول مرة بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام هذا الصباح بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام هذا المساء بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام في بداية استخدامي بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام قبل ما أبدأ بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام من التطبيق بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام من الأردن بكرا"}
+{"family": "v3-holdout-goodbye-0", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "نهارك سعيد، سلام اليوم بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later يا نيان بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later يا فريق نيان بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later لأول مرة بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later هذا الصباح بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later هذا المساء بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later في بداية استخدامي بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later قبل ما أبدأ بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later من التطبيق بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later من الأردن بكرا"}
+{"family": "v3-holdout-goodbye-1", "intent": "goodbye", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "talk to you later اليوم بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير يا نيان بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير يا فريق نيان بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير لأول مرة بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير هذا الصباح بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير هذا المساء بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير في بداية استخدامي بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير قبل ما أبدأ بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير من التطبيق بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير من الأردن بكرا"}
+{"family": "v3-holdout-greeting-0", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "مساء الخير اليوم بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN يا نيان بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN يا فريق نيان بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN لأول مرة بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN هذا الصباح بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN هذا المساء بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN في بداية استخدامي بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN قبل ما أبدأ بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN من التطبيق بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN من الأردن بكرا"}
+{"family": "v3-holdout-greeting-1", "intent": "greeting", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "hi NEYAN اليوم بكرا"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع الحجز السابق في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع العرض الحالي في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-help-0", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "وين أبدأ مع العملية الحالية في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand الحجز السابق في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand التذكرة الموجودة في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand العرض الحالي في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand هذه الخطوة في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand الطلب الذي بدأته في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand الخيار الظاهر في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand الرحلة الأخيرة في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand حجزي من التطبيق في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand الطلب المعروض في التطبيق"}
+{"family": "v3-holdout-help-1", "intent": "help", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "help me understand العملية الحالية في التطبيق"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، فرامل السيارة ضعيفة منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، مكيف الباص لا يعمل منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، المحرك يصدر صوتاً منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، الإطار يحتاج فحصاً منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، البطارية لا تشحن منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، السيارة لا تدور منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، هناك اهتزاز أثناء القيادة منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، لمبة المحرك مضيئة منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، الباص يحتاج تغيير زيت منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-0", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "أحتاج تصليح، الباب لا يغلق جيداً منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, فرامل السيارة ضعيفة منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, مكيف الباص لا يعمل منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, المحرك يصدر صوتاً منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, الإطار يحتاج فحصاً منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, البطارية لا تشحن منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, السيارة لا تدور منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, هناك اهتزاز أثناء القيادة منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, لمبة المحرك مضيئة منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, الباص يحتاج تغيير زيت منذ الصباح"}
+{"family": "v3-holdout-maintenance_request-1", "intent": "maintenance_request", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "please schedule maintenance, الباب لا يغلق جيداً منذ الصباح"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع Amman to Aqaba بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع Irbid to Amman بكرا"}
+{"family": "v3-holdout-price_inquiry-0", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "كم بدفع من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for Amman to Aqaba بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for Irbid to Amman بكرا"}
+{"family": "v3-holdout-price_inquiry-1", "intent": "price_inquiry", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "ticket cost for من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول Amman to Aqaba بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول Irbid to Amman بكرا"}
+{"family": "v3-holdout-trip_information-0", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "على أي ساعة الوصول من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة Amman to Aqaba بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة Irbid to Amman بكرا"}
+{"family": "v3-holdout-trip_information-1", "intent": "trip_information", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "هل الرحلة مباشرة من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات Amman to Aqaba بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات Irbid to Amman بكرا"}
+{"family": "v3-holdout-trip_search-0", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "بدي أتصفح رحلات من البلقاء إلى العاصمة بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من عمان إلى إربد بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من الزرقاء إلى العقبة بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من جرش إلى السلط بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من مادبا إلى الكرك بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من عجلون إلى المفرق بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من معان إلى الطفيلة بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من الرمثا إلى البحر الميت بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips Amman to Aqaba بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips Irbid to Amman بكرا"}
+{"family": "v3-holdout-trip_search-1", "intent": "trip_search", "source": "synthetic_curated_v3", "split": "final_holdout", "text": "find available trips من البلقاء إلى العاصمة بكرا"}

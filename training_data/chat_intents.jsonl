@@ -1,0 +1,195 @@
+{"intent": "greeting", "split": "train", "text": "مرحبا"}
+{"intent": "greeting", "split": "train", "text": "اهلا وسهلا"}
+{"intent": "greeting", "split": "train", "text": "هلا كيفك"}
+{"intent": "greeting", "split": "train", "text": "السلام عليكم"}
+{"intent": "greeting", "split": "train", "text": "صباح الخير"}
+{"intent": "greeting", "split": "train", "text": "مساء الخير"}
+{"intent": "greeting", "split": "train", "text": "hello"}
+{"intent": "greeting", "split": "train", "text": "good morning"}
+{"intent": "greeting", "split": "validation", "text": "اهلين نيان"}
+{"intent": "greeting", "split": "validation", "text": "هاي"}
+{"intent": "greeting", "split": "test", "text": "سلام عليكم"}
+{"intent": "greeting", "split": "test", "text": "هلو"}
+{"intent": "greeting", "split": "test", "text": "good evening"}
+{"intent": "goodbye", "split": "train", "text": "مع السلامة"}
+{"intent": "goodbye", "split": "train", "text": "الى اللقاء"}
+{"intent": "goodbye", "split": "train", "text": "باي"}
+{"intent": "goodbye", "split": "train", "text": "الله معك"}
+{"intent": "goodbye", "split": "train", "text": "تصبح على خير"}
+{"intent": "goodbye", "split": "train", "text": "خلصنا شكرا"}
+{"intent": "goodbye", "split": "train", "text": "goodbye"}
+{"intent": "goodbye", "split": "train", "text": "see you"}
+{"intent": "goodbye", "split": "validation", "text": "اشوفك بعدين"}
+{"intent": "goodbye", "split": "validation", "text": "في امان الله"}
+{"intent": "goodbye", "split": "test", "text": "يلا سلام"}
+{"intent": "goodbye", "split": "test", "text": "ما في شي ثاني"}
+{"intent": "goodbye", "split": "test", "text": "have a nice day"}
+{"intent": "book_trip", "split": "train", "text": "بدي احجز رحلة"}
+{"intent": "book_trip", "split": "train", "text": "اريد تذكرة سفر"}
+{"intent": "book_trip", "split": "train", "text": "نفسي اسافر بكرا"}
+{"intent": "book_trip", "split": "train", "text": "محتاج مواصلات للعقبة"}
+{"intent": "book_trip", "split": "train", "text": "احجزلي رحلة من عمان"}
+{"intent": "book_trip", "split": "train", "text": "اريد اروح اربد"}
+{"intent": "book_trip", "split": "train", "text": "book a trip"}
+{"intent": "book_trip", "split": "train", "text": "i need a ticket"}
+{"intent": "book_trip", "split": "validation", "text": "بدي اسافر من جرش"}
+{"intent": "book_trip", "split": "validation", "text": "reserve a seat for me"}
+{"intent": "book_trip", "split": "test", "text": "حابب اعمل حجز"}
+{"intent": "book_trip", "split": "test", "text": "بدي رحلة للطفيلة"}
+{"intent": "book_trip", "split": "test", "text": "i want to travel"}
+{"intent": "cancel_booking", "split": "train", "text": "بدي الغي حجزي"}
+{"intent": "cancel_booking", "split": "train", "text": "اريد الغاء التذكرة"}
+{"intent": "cancel_booking", "split": "train", "text": "الغاء الحجز الحالي"}
+{"intent": "cancel_booking", "split": "train", "text": "ممكن تلغي الحجز"}
+{"intent": "cancel_booking", "split": "train", "text": "بدي اكنسل الرحلة"}
+{"intent": "cancel_booking", "split": "train", "text": "الغ طلب السفر"}
+{"intent": "cancel_booking", "split": "train", "text": "cancel my booking"}
+{"intent": "cancel_booking", "split": "train", "text": "cancel my reservation"}
+{"intent": "cancel_booking", "split": "validation", "text": "اريد الغاء حجزي السابق"}
+{"intent": "cancel_booking", "split": "validation", "text": "please cancel the ticket"}
+{"intent": "cancel_booking", "split": "test", "text": "كيف الغي حجز قائم"}
+{"intent": "cancel_booking", "split": "test", "text": "الغاء تذكرتي"}
+{"intent": "cancel_booking", "split": "test", "text": "i need to cancel a booking"}
+{"intent": "trip_search", "split": "train", "text": "ورجيني الرحلات بس لا تحجز"}
+{"intent": "trip_search", "split": "train", "text": "هل في رحلة من عمان للعقبة"}
+{"intent": "trip_search", "split": "train", "text": "اعرض المتاح بكرا"}
+{"intent": "trip_search", "split": "train", "text": "بدي اشوف رحلات اربد"}
+{"intent": "trip_search", "split": "train", "text": "دورلي على باص للزرقاء"}
+{"intent": "trip_search", "split": "train", "text": "شو الموجود يوم الجمعة"}
+{"intent": "trip_search", "split": "train", "text": "show me available trips"}
+{"intent": "trip_search", "split": "train", "text": "find trips to Aqaba"}
+{"intent": "trip_search", "split": "validation", "text": "ما بدي احجز بس بدي اشوف"}
+{"intent": "trip_search", "split": "validation", "text": "في trip من Amman ل Aqaba"}
+{"intent": "trip_search", "split": "test", "text": "وين بلاقي رحلات لمعان"}
+{"intent": "trip_search", "split": "test", "text": "اعرض خيارات السفر"}
+{"intent": "trip_search", "split": "test", "text": "list trips for tomorrow"}
+{"intent": "trip_information", "split": "train", "text": "كم مدة الرحلة"}
+{"intent": "trip_information", "split": "train", "text": "شو تفاصيل هالرحلة"}
+{"intent": "trip_information", "split": "train", "text": "متى بتوصل الرحلة"}
+{"intent": "trip_information", "split": "train", "text": "من وين بتنطلق"}
+{"intent": "trip_information", "split": "train", "text": "هل الرحلة مباشرة"}
+{"intent": "trip_information", "split": "train", "text": "شو وقت الوصول"}
+{"intent": "trip_information", "split": "train", "text": "how long is the trip"}
+{"intent": "trip_information", "split": "train", "text": "what are the trip details"}
+{"intent": "trip_information", "split": "validation", "text": "بدي معلومات عن الرحلة"}
+{"intent": "trip_information", "split": "validation", "text": "هل في توقفات بالطريق"}
+{"intent": "trip_information", "split": "test", "text": "متى موعد الانطلاق"}
+{"intent": "trip_information", "split": "test", "text": "احكيلي عن مسار الرحلة"}
+{"intent": "trip_information", "split": "test", "text": "does it stop on the way"}
+{"intent": "company_information", "split": "train", "text": "شو شركات النقل الموجودة"}
+{"intent": "company_information", "split": "train", "text": "اعرض الشركات"}
+{"intent": "company_information", "split": "train", "text": "مين الشركات المتاحة"}
+{"intent": "company_information", "split": "train", "text": "بدي اسماء شركات الباصات"}
+{"intent": "company_information", "split": "train", "text": "هل في شركة للعقبة"}
+{"intent": "company_information", "split": "train", "text": "وين الاقي شركات سفر"}
+{"intent": "company_information", "split": "train", "text": "show transport companies"}
+{"intent": "company_information", "split": "train", "text": "which companies operate trips"}
+{"intent": "company_information", "split": "validation", "text": "ما هي شركات النقل"}
+{"intent": "company_information", "split": "validation", "text": "list the companies"}
+{"intent": "company_information", "split": "test", "text": "مين مشغل الرحلات"}
+{"intent": "company_information", "split": "test", "text": "اعرضلي شركات السفر"}
+{"intent": "company_information", "split": "test", "text": "company options please"}
+{"intent": "maintenance_request", "split": "train", "text": "السيارة بدها صيانة"}
+{"intent": "maintenance_request", "split": "train", "text": "عندي عطل بالمحرك"}
+{"intent": "maintenance_request", "split": "train", "text": "بدي اغير زيت"}
+{"intent": "maintenance_request", "split": "train", "text": "البطارية خربانة"}
+{"intent": "maintenance_request", "split": "train", "text": "عندي بنشر"}
+{"intent": "maintenance_request", "split": "train", "text": "السيارة مش ماشية"}
+{"intent": "maintenance_request", "split": "train", "text": "i need vehicle maintenance"}
+{"intent": "maintenance_request", "split": "train", "text": "the engine needs repair"}
+{"intent": "maintenance_request", "split": "validation", "text": "بدي تصليح كوشوك"}
+{"intent": "maintenance_request", "split": "validation", "text": "my car has a problem"}
+{"intent": "maintenance_request", "split": "test", "text": "في مشكلة بالسيارة"}
+{"intent": "maintenance_request", "split": "test", "text": "موتور الباص معطل"}
+{"intent": "maintenance_request", "split": "test", "text": "need an oil change"}
+{"intent": "complaint", "split": "train", "text": "عندي شكوى"}
+{"intent": "complaint", "split": "train", "text": "الخدمة سيئة"}
+{"intent": "complaint", "split": "train", "text": "الرحلة تأخرت كثير"}
+{"intent": "complaint", "split": "train", "text": "الموظف تعامل بطريقة سيئة"}
+{"intent": "complaint", "split": "train", "text": "مش راضي عن التجربة"}
+{"intent": "complaint", "split": "train", "text": "بدي اشتكي"}
+{"intent": "complaint", "split": "train", "text": "this is a complaint"}
+{"intent": "complaint", "split": "train", "text": "the service was terrible"}
+{"intent": "complaint", "split": "validation", "text": "صار معي موقف مزعج"}
+{"intent": "complaint", "split": "validation", "text": "i am unhappy with the service"}
+{"intent": "complaint", "split": "test", "text": "بدي اقدم اعتراض"}
+{"intent": "complaint", "split": "test", "text": "السائق كان غير مهذب"}
+{"intent": "complaint", "split": "test", "text": "i want to complain"}
+{"intent": "help", "split": "train", "text": "شو بتقدر تعمل"}
+{"intent": "help", "split": "train", "text": "كيف بستخدم التطبيق"}
+{"intent": "help", "split": "train", "text": "محتاج مساعدة"}
+{"intent": "help", "split": "train", "text": "اشرحلي الخدمات"}
+{"intent": "help", "split": "train", "text": "كيف بقدر ألغي الحجز؟"}
+{"intent": "help", "split": "train", "text": "ممكن تساعدني"}
+{"intent": "help", "split": "train", "text": "what can you do"}
+{"intent": "help", "split": "train", "text": "i need help"}
+{"intent": "help", "split": "validation", "text": "كيف احجز من خلالك"}
+{"intent": "help", "split": "validation", "text": "guide me please"}
+{"intent": "help", "split": "test", "text": "بدّي شرح"}
+{"intent": "help", "split": "test", "text": "شو الخدمات المتوفرة"}
+{"intent": "help", "split": "test", "text": "how does this work"}
+{"intent": "price_inquiry", "split": "train", "text": "كم سعر الرحلة"}
+{"intent": "price_inquiry", "split": "train", "text": "قديش التذكرة"}
+{"intent": "price_inquiry", "split": "train", "text": "بكم السفر للعقبة"}
+{"intent": "price_inquiry", "split": "train", "text": "شو التكلفة"}
+{"intent": "price_inquiry", "split": "train", "text": "كم الثمن"}
+{"intent": "price_inquiry", "split": "train", "text": "بدي اعرف السعر فقط"}
+{"intent": "price_inquiry", "split": "train", "text": "what is the price"}
+{"intent": "price_inquiry", "split": "train", "text": "how much is a ticket"}
+{"intent": "price_inquiry", "split": "validation", "text": "السعر شامل شو"}
+{"intent": "price_inquiry", "split": "validation", "text": "fare to Irbid"}
+{"intent": "price_inquiry", "split": "test", "text": "قديش بدفع"}
+{"intent": "price_inquiry", "split": "test", "text": "بدي أعرف سعر الرحلة"}
+{"intent": "price_inquiry", "split": "test", "text": "what does it cost"}
+{"intent": "availability_inquiry", "split": "train", "text": "كم مقعد باقي"}
+{"intent": "availability_inquiry", "split": "train", "text": "هل في اماكن فاضية"}
+{"intent": "availability_inquiry", "split": "train", "text": "في مقاعد للرحلة"}
+{"intent": "availability_inquiry", "split": "train", "text": "قديش ضل كراسي"}
+{"intent": "availability_inquiry", "split": "train", "text": "هل بتتسع لشخصين"}
+{"intent": "availability_inquiry", "split": "train", "text": "شو المتوفر من المقاعد"}
+{"intent": "availability_inquiry", "split": "train", "text": "how many seats are left"}
+{"intent": "availability_inquiry", "split": "train", "text": "is there space"}
+{"intent": "availability_inquiry", "split": "validation", "text": "في مكان على الباص"}
+{"intent": "availability_inquiry", "split": "validation", "text": "available seats please"}
+{"intent": "availability_inquiry", "split": "test", "text": "هل في كرسي فاضي"}
+{"intent": "availability_inquiry", "split": "test", "text": "كم راكب بقدر احجز"}
+{"intent": "availability_inquiry", "split": "test", "text": "are seats available"}
+{"intent": "confirmation", "split": "train", "text": "نعم"}
+{"intent": "confirmation", "split": "train", "text": "اكيد"}
+{"intent": "confirmation", "split": "train", "text": "موافق"}
+{"intent": "confirmation", "split": "train", "text": "تمام"}
+{"intent": "confirmation", "split": "train", "text": "اعملها"}
+{"intent": "confirmation", "split": "train", "text": "يلا"}
+{"intent": "confirmation", "split": "train", "text": "yes"}
+{"intent": "confirmation", "split": "train", "text": "confirm"}
+{"intent": "confirmation", "split": "validation", "text": "بالتاكيد"}
+{"intent": "confirmation", "split": "validation", "text": "proceed"}
+{"intent": "confirmation", "split": "test", "text": "اوافق"}
+{"intent": "confirmation", "split": "test", "text": "sure"}
+{"intent": "confirmation", "split": "test", "text": "صحيح"}
+{"intent": "cancellation", "split": "train", "text": "لا"}
+{"intent": "cancellation", "split": "train", "text": "مش هسا"}
+{"intent": "cancellation", "split": "train", "text": "ما بدي"}
+{"intent": "cancellation", "split": "train", "text": "وقف"}
+{"intent": "cancellation", "split": "train", "text": "ارجع"}
+{"intent": "cancellation", "split": "train", "text": "خلص لا"}
+{"intent": "cancellation", "split": "train", "text": "no"}
+{"intent": "cancellation", "split": "train", "text": "not now"}
+{"intent": "cancellation", "split": "validation", "text": "لا تلغي الحجز"}
+{"intent": "cancellation", "split": "validation", "text": "nevermind"}
+{"intent": "cancellation", "split": "test", "text": "ما ابغى اكمل"}
+{"intent": "cancellation", "split": "test", "text": "stop"}
+{"intent": "cancellation", "split": "test", "text": "مش موافق"}
+{"intent": "general_conversation", "split": "train", "text": "كيف حالك"}
+{"intent": "general_conversation", "split": "train", "text": "شو الاخبار"}
+{"intent": "general_conversation", "split": "train", "text": "احكيلي نكتة"}
+{"intent": "general_conversation", "split": "train", "text": "شو رايك بالطقس"}
+{"intent": "general_conversation", "split": "train", "text": "مين انت"}
+{"intent": "general_conversation", "split": "train", "text": "خبرني اشي لطيف"}
+{"intent": "general_conversation", "split": "train", "text": "how are you"}
+{"intent": "general_conversation", "split": "train", "text": "tell me a joke"}
+{"intent": "general_conversation", "split": "validation", "text": "شو بتعمل اليوم"}
+{"intent": "general_conversation", "split": "validation", "text": "what is up"}
+{"intent": "general_conversation", "split": "test", "text": "بدّي نحكي شوي"}
+{"intent": "general_conversation", "split": "test", "text": "شو رأيك بالسفر"}
+{"intent": "general_conversation", "split": "test", "text": "tell me something interesting"}

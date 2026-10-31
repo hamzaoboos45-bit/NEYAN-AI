@@ -1,0 +1,36 @@
+{
+  "base_model": "aubmindlab/bert-base-arabertv02",
+  "best_epoch": 8,
+  "format": "neyan-arabert-intent-head-v1",
+  "labels": [
+    "availability_inquiry",
+    "book_trip",
+    "cancel_booking",
+    "cancellation",
+    "company_information",
+    "complaint",
+    "confirmation",
+    "general_conversation",
+    "goodbye",
+    "greeting",
+    "help",
+    "maintenance_request",
+    "price_inquiry",
+    "trip_information",
+    "trip_search"
+  ],
+  "max_sequence_length": 64,
+  "state_file": "arabert_intent_delta.pt",
+  "training_configuration": {
+    "batch_size": 16,
+    "device": "cpu",
+    "early_stopping_patience": 8,
+    "frozen_encoder_embeddings": true,
+    "head_learning_rate": 0.005,
+    "max_epochs": 60,
+    "seed": 20260920,
+    "trainable_layers": [
+      "classifier"
+    ]
+  }
+}

@@ -1,45 +1,21 @@
-# Environment variables and secrets
+# Runtime secrets and local deployment configuration
 .env
 .env.*
 !.env.example
 
-# Python virtual environments
+# Python/runtime artifacts
 .venv/
 venv/
-env/
-
-# Python cache and test artifacts
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.coverage
-htmlcov/
 
-# Local databases
+# Runtime state and generated artifacts
 database/*.db
-database/*.sqlite
-database/*.sqlite3
-instance/*.db
-instance/*.sqlite
-instance/*.sqlite3
-
-# Runtime uploads and logs
 uploads/
 logs/
-
-# IDE and editor files
-.idea/
-.vscode/
-
-# Archives
 *.zip
 
-# OS-generated files
-.DS_Store
-Thumbs.db
-# Keep only the selected V2 model in Git
-backend/nlp/models/*
-!backend/nlp/models/v2_exp_partial2_seed20260920/
-backend/nlp/models/v2_exp_partial2_seed20260920/*
-!backend/nlp/models/v2_exp_partial2_seed20260920/arabert_intent_delta_v2.pt
-!backend/nlp/models/v2_exp_partial2_seed20260920/chat_intent_metadata_v2.json
+# IDE/editor artifacts
+.idea/
+.vscode/
